@@ -55,6 +55,7 @@
         {
           "name": "Sniper MR-512",
           "desc": "Snaipera šautene tālšāvējiem",
+          "image": "assets/weapons/sniper-mr512.jpg",
           "length": "85cm",
           "weight": "2.2kg",
           "range": "350m",
@@ -65,6 +66,7 @@
         {
           "name": "Junior LB-3",
           "desc": "Kompakts ierocis jaunākajiem spēlētājiem",
+          "image": "assets/weapons/biathlon.jpg",
           "length": "45cm",
           "weight": "650g",
           "range": "200m",
@@ -75,6 +77,7 @@
         {
           "name": "Predator AK-12LT",
           "desc": "Universāls trieciena ierocis",
+          "image": "assets/weapons/predator-ak12lt.jpg",
           "length": "70cm",
           "weight": "1kg",
           "range": "250m",
@@ -85,6 +88,7 @@
         {
           "name": "Phoenix MP-9LT",
           "desc": "Ātrs un precīzs — ideāls agresīvam stilam",
+          "image": "assets/weapons/phoenix-mp9lt.jpg",
           "length": "39.5cm",
           "weight": "780g",
           "range": "300m",
@@ -95,6 +99,7 @@
         {
           "name": "Terminator MR-514",
           "desc": "Smagais ierocis ar maksimālu ugunsspēku",
+          "image": "assets/weapons/terminator-mr514.jpg",
           "length": "77cm",
           "weight": "2.5kg",
           "range": "200m",
@@ -149,19 +154,22 @@
       "sectionTitle": "Atsauksmes",
       "list": [
         {
-          "text": "Fantastiska pieredze! Bērni bija sajūsmā, un mēs noteikti atgriezīsimies. Meža vide padara visu vēl aizraujošāku!",
-          "author": "Jānis K.",
-          "type": "Ģimenes pasākums"
+          "text": "Paldies, noteikti atgriezīsimies! Mans pusaudzis un viņa draugi lieliski pavadīja laiku, spēlējot lāzertagu Lāzers3 vadībā.",
+          "author": "Egita",
+          "type": "",
+          "avatar": "assets/testimonials/egita.png"
         },
         {
-          "text": "Labākais team-building, kāds mums ir bijis. Kolēģi vēl tagad par to runā. Organizācija nevainojama!",
-          "author": "Anna L.",
-          "type": "Korporatīvais pasākums"
+          "text": "Par spīti tam, ka ieradāmies laikā, kad vēl bija auksts un lietains – pasākums bija burvīgs. Instruktori bija atsaucīgi.",
+          "author": "Arta",
+          "type": "",
+          "avatar": "assets/testimonials/arta.png"
         },
         {
-          "text": "Atnācām draugu kompānijā un pavadījām neticami aizraujošu dienu. Ieroči ir kvalitatīvi, un instruktors ļoti profesionāls.",
-          "author": "Mārtiņš B.",
-          "type": "Draugu grupa"
+          "text": "Mūsu lāzertaga pasākums bija neaizmirstams! Likās, kāds lāzertags var būt mežā, bet sapratu, ka nav piemērotākas vietas!",
+          "author": "Gatis",
+          "type": "",
+          "avatar": "assets/testimonials/mezs.jpg"
         }
       ]
     },
@@ -273,6 +281,7 @@
         {
           "name": "Sniper MR-512",
           "desc": "Sniper rifle for long-range players",
+          "image": "assets/weapons/sniper-mr512.jpg",
           "length": "85cm",
           "weight": "2.2kg",
           "range": "350m",
@@ -283,6 +292,7 @@
         {
           "name": "Junior LB-3",
           "desc": "Compact weapon for younger players",
+          "image": "assets/weapons/biathlon.jpg",
           "length": "45cm",
           "weight": "650g",
           "range": "200m",
@@ -293,6 +303,7 @@
         {
           "name": "Predator AK-12LT",
           "desc": "Universal assault weapon",
+          "image": "assets/weapons/predator-ak12lt.jpg",
           "length": "70cm",
           "weight": "1kg",
           "range": "250m",
@@ -303,6 +314,7 @@
         {
           "name": "Phoenix MP-9LT",
           "desc": "Fast and accurate — ideal for aggressive style",
+          "image": "assets/weapons/phoenix-mp9lt.jpg",
           "length": "39.5cm",
           "weight": "780g",
           "range": "300m",
@@ -313,6 +325,7 @@
         {
           "name": "Terminator MR-514",
           "desc": "Heavy weapon with maximum firepower",
+          "image": "assets/weapons/terminator-mr514.jpg",
           "length": "77cm",
           "weight": "2.5kg",
           "range": "200m",
@@ -367,19 +380,22 @@
       "sectionTitle": "Testimonials",
       "list": [
         {
-          "text": "Fantastic experience! The kids were thrilled and we'll definitely come back. The forest setting makes it even more exciting!",
-          "author": "Jānis K.",
-          "type": "Family event"
+          "text": "Thank you, we will definitely come back! My teenager and his friends had a great time playing laser tag with Lāzers3.",
+          "author": "Egita",
+          "type": "",
+          "avatar": "assets/testimonials/egita.png"
         },
         {
-          "text": "Best team-building we've ever had. Colleagues are still talking about it. Organization was flawless!",
-          "author": "Anna L.",
-          "type": "Corporate event"
+          "text": "Despite the cold and rainy weather when we arrived — the event was wonderful. The instructors were very responsive.",
+          "author": "Arta",
+          "type": "",
+          "avatar": "assets/testimonials/arta.png"
         },
         {
-          "text": "Came with a group of friends and had an incredibly exciting day. The weapons are high quality and the instructor very professional.",
-          "author": "Mārtiņš B.",
-          "type": "Friends group"
+          "text": "Our laser tag event was unforgettable! I wondered what laser tag could be like in the forest, but realized there's no better place!",
+          "author": "Gatis",
+          "type": "",
+          "avatar": "assets/testimonials/mezs.jpg"
         }
       ]
     },
@@ -491,6 +507,7 @@
         {
           "name": "Sniper MR-512",
           "desc": "Снайперская винтовка для дальнобойщиков",
+          "image": "assets/weapons/sniper-mr512.jpg",
           "length": "85cm",
           "weight": "2.2kg",
           "range": "350m",
@@ -501,6 +518,7 @@
         {
           "name": "Junior LB-3",
           "desc": "Компактное оружие для юных игроков",
+          "image": "assets/weapons/biathlon.jpg",
           "length": "45cm",
           "weight": "650g",
           "range": "200m",
@@ -511,6 +529,7 @@
         {
           "name": "Predator AK-12LT",
           "desc": "Универсальное штурмовое оружие",
+          "image": "assets/weapons/predator-ak12lt.jpg",
           "length": "70cm",
           "weight": "1kg",
           "range": "250m",
@@ -521,6 +540,7 @@
         {
           "name": "Phoenix MP-9LT",
           "desc": "Быстрый и точный — идеален для агрессивного стиля",
+          "image": "assets/weapons/phoenix-mp9lt.jpg",
           "length": "39.5cm",
           "weight": "780g",
           "range": "300m",
@@ -531,6 +551,7 @@
         {
           "name": "Terminator MR-514",
           "desc": "Тяжёлое оружие с максимальной огневой мощью",
+          "image": "assets/weapons/terminator-mr514.jpg",
           "length": "77cm",
           "weight": "2.5kg",
           "range": "200m",
@@ -585,19 +606,22 @@
       "sectionTitle": "Отзывы",
       "list": [
         {
-          "text": "Фантастический опыт! Дети были в восторге, и мы обязательно вернёмся. Лесная обстановка делает всё ещё более захватывающим!",
-          "author": "Янис К.",
-          "type": "Семейное мероприятие"
+          "text": "Спасибо, обязательно вернёмся! Мой подросток и его друзья отлично провели время, играя в лазертаг с Lāzers3.",
+          "author": "Эгита",
+          "type": "",
+          "avatar": "assets/testimonials/egita.png"
         },
         {
-          "text": "Лучший тимбилдинг, который у нас был. Коллеги до сих пор об этом вспоминают. Организация безупречная!",
-          "author": "Анна Л.",
-          "type": "Корпоративное мероприятие"
+          "text": "Несмотря на то, что мы приехали в холодную и дождливую погоду — мероприятие было чудесным. Инструкторы были очень отзывчивыми.",
+          "author": "Арта",
+          "type": "",
+          "avatar": "assets/testimonials/arta.png"
         },
         {
-          "text": "Пришли компанией друзей и провели невероятно увлекательный день. Оружие качественное, инструктор очень профессиональный.",
-          "author": "Мартиньш Б.",
-          "type": "Компания друзей"
+          "text": "Наше мероприятие по лазертагу было незабываемым! Думал, какой лазертаг может быть в лесу, но понял, что лучшего места нет!",
+          "author": "Гатис",
+          "type": "",
+          "avatar": "assets/testimonials/mezs.jpg"
         }
       ]
     },

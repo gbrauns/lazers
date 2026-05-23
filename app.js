@@ -136,9 +136,7 @@
     carousel.innerHTML = data.list.map(w => `
       <div class="weapon-card">
         <div class="weapon-visual">
-          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-          </svg>
+          <img src="${w.image}" alt="${w.name}" class="w-full h-full object-cover rounded-xl">
         </div>
         <div class="flex-1 text-center md:text-left">
           <h3 class="font-heading font-bold text-2xl mb-2">${w.name}</h3>
@@ -287,9 +285,12 @@
     slides.innerHTML = data.list.map(t => `
       <div class="testimonial-slide">
         <p class="testimonial-text">${t.text}</p>
-        <div>
-          <p class="font-semibold text-white">${t.author}</p>
-          <p class="text-white/50 text-sm">${t.type}</p>
+        <div class="flex items-center justify-center gap-3 mt-4">
+          ${t.avatar ? `<img src="${t.avatar}" alt="${t.author}" class="w-12 h-12 rounded-full object-cover border-2 border-accent/30">` : ''}
+          <div class="text-left">
+            <p class="font-semibold text-white">${t.author}</p>
+            ${t.type ? `<p class="text-white/50 text-sm">${t.type}</p>` : ''}
+          </div>
         </div>
       </div>
     `).join('');

@@ -36,13 +36,8 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16 md:h-20">
         <!-- Logo -->
-        <a href="#" class="flex items-center gap-2 text-white font-heading font-black text-xl md:text-2xl tracking-tight">
-          <svg class="w-8 h-8 md:w-10 md:h-10 text-accent" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2.5"/>
-            <path d="M12 28L20 8L28 28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle cx="20" cy="20" r="4" fill="currentColor"/>
-          </svg>
-          LĀZERS 3
+        <a href="#" class="flex items-center">
+          <img src="assets/logo/logo-web.png" alt="Lāzers 3" class="h-10 md:h-14 w-auto">
         </a>
 
         <!-- Desktop Nav -->
@@ -95,12 +90,14 @@
 
   <!-- ============ HERO ============ -->
   <section id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden">
-    <!-- Background -->
-    <div class="absolute inset-0 bg-gradient-to-br from-dark via-primary-dark to-dark"></div>
+    <!-- Background image -->
+    <div class="absolute inset-0">
+      <img src="assets/bg/hero-about.png" alt="" class="w-full h-full object-cover">
+    </div>
+    <!-- Dark overlay -->
+    <div class="absolute inset-0 bg-gradient-to-br from-dark/85 via-primary-dark/75 to-dark/85"></div>
     <!-- Animated particles overlay -->
     <div class="hero-particles absolute inset-0"></div>
-    <!-- Grid overlay -->
-    <div class="absolute inset-0 opacity-[0.03]" style="background-image: url('data:image/svg+xml,%3Csvg width=&quot;60&quot; height=&quot;60&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;%3E%3Cpath d=&quot;M60 0H0v60&quot; fill=&quot;none&quot; stroke=&quot;%23fff&quot; stroke-width=&quot;0.5&quot;/%3E%3C/svg%3E');"></div>
     <!-- Laser lines -->
     <div class="absolute inset-0 overflow-hidden">
       <div class="laser-line laser-line-1"></div>
@@ -128,7 +125,7 @@
   </section>
 
   <!-- ============ SERVICES ============ -->
-  <section id="services" class="py-20 md:py-28 bg-gray-50">
+  <section id="services" class="py-20 md:py-28 bg-cover bg-center bg-no-repeat" style="background-image: linear-gradient(rgba(248,250,252,0.92), rgba(248,250,252,0.92)), url('assets/bg/grey-bg.png');">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 data-i18n="services.sectionTitle" class="font-heading font-bold text-3xl md:text-4xl text-center mb-4 text-dark">Mūsu pakalpojumi</h2>
       <div class="w-16 h-1 bg-accent mx-auto mb-12 md:mb-16 rounded-full"></div>
@@ -183,8 +180,9 @@
   </section>
 
   <!-- ============ HOW IT WORKS ============ -->
-  <section id="howItWorks" class="py-20 md:py-28 bg-white">
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+  <section id="howItWorks" class="py-20 md:py-28 bg-cover bg-center bg-no-repeat relative" style="background-image: url('assets/bg/back-1.png');">
+    <div class="absolute inset-0 bg-white/90"></div>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 data-i18n="howItWorks.sectionTitle" class="font-heading font-bold text-3xl md:text-4xl text-center mb-4 text-dark">Kā tas strādā?</h2>
       <div class="w-16 h-1 bg-accent mx-auto mb-12 md:mb-16 rounded-full"></div>
 
@@ -268,26 +266,26 @@
       <div class="w-16 h-1 bg-accent mx-auto mb-12 md:mb-16 rounded-full"></div>
 
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
-        <div class="aspect-square bg-gradient-to-br from-primary/20 to-accent/20 rounded-xl flex items-center justify-center text-primary/40 hover:scale-[1.02] transition-transform cursor-pointer">
-          <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+        <div class="rounded-xl overflow-hidden hover:scale-[1.02] transition-transform cursor-pointer">
+          <img src="assets/weapons/sniper-mr512.jpg" alt="Lāzertags" class="w-full h-full object-cover aspect-square">
         </div>
-        <div class="aspect-square bg-gradient-to-br from-accent/20 to-primary/20 rounded-xl flex items-center justify-center text-primary/40 hover:scale-[1.02] transition-transform cursor-pointer row-span-2">
-          <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+        <div class="rounded-xl overflow-hidden hover:scale-[1.02] transition-transform cursor-pointer row-span-2">
+          <img src="assets/bg/corporate.png" alt="Korporatīvais pasākums" class="w-full h-full object-cover">
         </div>
-        <div class="aspect-square bg-gradient-to-br from-primary/15 to-accent/25 rounded-xl flex items-center justify-center text-primary/40 hover:scale-[1.02] transition-transform cursor-pointer">
-          <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+        <div class="rounded-xl overflow-hidden hover:scale-[1.02] transition-transform cursor-pointer">
+          <img src="assets/weapons/predator-ak12lt.jpg" alt="Predator AK-12LT" class="w-full h-full object-cover aspect-square">
         </div>
-        <div class="aspect-square bg-gradient-to-br from-accent/25 to-primary/15 rounded-xl flex items-center justify-center text-primary/40 hover:scale-[1.02] transition-transform cursor-pointer">
-          <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+        <div class="rounded-xl overflow-hidden hover:scale-[1.02] transition-transform cursor-pointer">
+          <img src="assets/weapons/phoenix-mp9lt.jpg" alt="Phoenix MP-9LT" class="w-full h-full object-cover aspect-square">
         </div>
-        <div class="aspect-square bg-gradient-to-br from-primary/20 to-accent/15 rounded-xl flex items-center justify-center text-primary/40 hover:scale-[1.02] transition-transform cursor-pointer">
-          <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+        <div class="rounded-xl overflow-hidden hover:scale-[1.02] transition-transform cursor-pointer">
+          <img src="assets/weapons/biathlon.jpg" alt="Lāzerbiatlons" class="w-full h-full object-cover aspect-square">
         </div>
-        <div class="aspect-square bg-gradient-to-br from-accent/15 to-primary/20 rounded-xl flex items-center justify-center text-primary/40 hover:scale-[1.02] transition-transform cursor-pointer">
-          <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+        <div class="rounded-xl overflow-hidden hover:scale-[1.02] transition-transform cursor-pointer">
+          <img src="assets/weapons/terminator-mr514.jpg" alt="Terminator MR-514" class="w-full h-full object-cover aspect-square">
         </div>
-        <div class="aspect-square bg-gradient-to-br from-primary/25 to-accent/20 rounded-xl flex items-center justify-center text-primary/40 hover:scale-[1.02] transition-transform cursor-pointer">
-          <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+        <div class="rounded-xl overflow-hidden hover:scale-[1.02] transition-transform cursor-pointer">
+          <img src="assets/bg/hero-about.png" alt="Lāzertags mežā" class="w-full h-full object-cover aspect-square">
         </div>
       </div>
     </div>
@@ -418,16 +416,12 @@
   </section>
 
   <!-- ============ FOOTER ============ -->
-  <footer class="bg-dark text-white/60 py-8">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <footer class="text-white/60 py-8 bg-cover bg-center bg-no-repeat relative" style="background-image: url('assets/bg/footer-bg.png');">
+    <div class="absolute inset-0 bg-dark/90"></div>
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col md:flex-row items-center justify-between gap-4">
-        <div class="flex items-center gap-2 font-heading font-bold text-white text-lg">
-          <svg class="w-7 h-7 text-accent" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2.5"/>
-            <path d="M12 28L20 8L28 28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle cx="20" cy="20" r="4" fill="currentColor"/>
-          </svg>
-          LĀZERS 3
+        <div class="flex items-center">
+          <img src="assets/logo/logo-web.png" alt="Lāzers 3" class="h-10 w-auto">
         </div>
         <p class="text-sm">&copy; 2026 Lāzers 3. <span data-i18n="footer.rights">Visas tiesības aizsargātas.</span></p>
         <div class="flex items-center gap-4">
