@@ -1,0 +1,655 @@
+{
+  "lv": {
+    "nav": {
+      "services": "Spēles",
+      "pricing": "Cenas",
+      "gallery": "Galerija",
+      "faq": "FAQ",
+      "contact": "Kontakti",
+      "book": "Rezervēt"
+    },
+    "hero": {
+      "title": "Droša aktīvā atpūta jebkurā vecumā",
+      "subtitle": "Lāzertags un lāzerbiatlons mežā — adrenalīns, komandas gars un neaizmirstamas emocijas",
+      "cta": "Rezervē piedzīvojumu"
+    },
+    "services": {
+      "sectionTitle": "Mūsu pakalpojumi",
+      "lazertag": {
+        "title": "Lāzertags",
+        "desc": "Komandu cīņas mežā ar profesionālu ekipējumu. Dažādi spēļu scenāriji — komanda pret komandu, kontrolpunktu ieņemšana, pēdējais izdzīvojušais.",
+        "price": "no €10/pers.",
+        "cta": "Uzzināt vairāk"
+      },
+      "biathlon": {
+        "title": "Lāzerbiatlons",
+        "desc": "Apvieno fizisko slodzi ar precīzu šaušanu. Skrien, šauj, uzvarē! Ideāls sacensību formāts draugiem un kolēģiem.",
+        "price": "no €7/pers.",
+        "cta": "Uzzināt vairāk"
+      },
+      "corporate": {
+        "title": "Korporatīvie pasākumi",
+        "desc": "Team-building piedzīvojums dabā. Mēs organizējam visu — jums tikai jāierodas un jāizbauda. Individuāli piedāvājumi lielām grupām.",
+        "price": "pēc pieprasījuma",
+        "cta": "Sazināties"
+      }
+    },
+    "howItWorks": {
+      "sectionTitle": "Kā tas strādā?",
+      "step1": {
+        "title": "Rezervē",
+        "desc": "Aizpildi formu vai piezvani mums. Izvēlies datumu un laiku."
+      },
+      "step2": {
+        "title": "Ieradies",
+        "desc": "Mēs nodrošinām ekipējumu un instruktāžu. Tev tikai jāierodas ērtā apģērbā."
+      },
+      "step3": {
+        "title": "Spēlē un uzvarē!",
+        "desc": "Izbaudiet adrenalīnu mežā! Pēc spēles — kopīga rezultātu apspriešana."
+      }
+    },
+    "weapons": {
+      "sectionTitle": "Mūsu ieroči",
+      "list": [
+        {
+          "name": "Sniper MR-512",
+          "desc": "Snaipera šautene tālšāvējiem",
+          "length": "85cm",
+          "weight": "2.2kg",
+          "range": "350m",
+          "accuracy": 95,
+          "mobility": 40,
+          "firepower": 70
+        },
+        {
+          "name": "Junior LB-3",
+          "desc": "Kompakts ierocis jaunākajiem spēlētājiem",
+          "length": "45cm",
+          "weight": "650g",
+          "range": "200m",
+          "accuracy": 70,
+          "mobility": 95,
+          "firepower": 50
+        },
+        {
+          "name": "Predator AK-12LT",
+          "desc": "Universāls trieciena ierocis",
+          "length": "70cm",
+          "weight": "1kg",
+          "range": "250m",
+          "accuracy": 75,
+          "mobility": 70,
+          "firepower": 80
+        },
+        {
+          "name": "Phoenix MP-9LT",
+          "desc": "Ātrs un precīzs — ideāls agresīvam stilam",
+          "length": "39.5cm",
+          "weight": "780g",
+          "range": "300m",
+          "accuracy": 85,
+          "mobility": 90,
+          "firepower": 65
+        },
+        {
+          "name": "Terminator MR-514",
+          "desc": "Smagais ierocis ar maksimālu ugunsspēku",
+          "length": "77cm",
+          "weight": "2.5kg",
+          "range": "200m",
+          "accuracy": 60,
+          "mobility": 35,
+          "firepower": 95
+        }
+      ],
+      "stats": {
+        "accuracy": "Precizitāte",
+        "mobility": "Mobilitāte",
+        "firepower": "Ugunsspēks"
+      }
+    },
+    "pricing": {
+      "sectionTitle": "Cenas",
+      "note": "* No 3. stundas — tikai €8/pers.",
+      "packages": [
+        {
+          "name": "Iesildīšanās",
+          "price": "€10",
+          "per": "/pers.",
+          "duration": "1 stunda",
+          "features": ["6-10 personu grupa", "Ekipējums iekļauts", "Instruktāža iekļauta", "1 spēles scenārijs"],
+          "recommended": false,
+          "cta": "Rezervēt"
+        },
+        {
+          "name": "Džentlmeņa pakete",
+          "price": "€18",
+          "per": "/pers.",
+          "duration": "2 stundas",
+          "features": ["6-10 personu grupa", "Ekipējums iekļauts", "Instruktāža iekļauta", "Vairāki scenāriji", "Labākā cena/laiks"],
+          "recommended": true,
+          "cta": "Rezervēt"
+        },
+        {
+          "name": "Lāzerbiatlons",
+          "price": "no €7",
+          "per": "/pers.",
+          "duration": "2 vai 4 apļi",
+          "features": ["Individuāls vai komandas", "2 vai 4 šaušanas kārtas", "5 mērķi", "Rezultātu korekcija +€5"],
+          "recommended": false,
+          "cta": "Rezervēt"
+        }
+      ]
+    },
+    "gallery": {
+      "sectionTitle": "Galerija"
+    },
+    "testimonials": {
+      "sectionTitle": "Atsauksmes",
+      "list": [
+        {
+          "text": "Fantastiska pieredze! Bērni bija sajūsmā, un mēs noteikti atgriezīsimies. Meža vide padara visu vēl aizraujošāku!",
+          "author": "Jānis K.",
+          "type": "Ģimenes pasākums"
+        },
+        {
+          "text": "Labākais team-building, kāds mums ir bijis. Kolēģi vēl tagad par to runā. Organizācija nevainojama!",
+          "author": "Anna L.",
+          "type": "Korporatīvais pasākums"
+        },
+        {
+          "text": "Atnācām draugu kompānijā un pavadījām neticami aizraujošu dienu. Ieroči ir kvalitatīvi, un instruktors ļoti profesionāls.",
+          "author": "Mārtiņš B.",
+          "type": "Draugu grupa"
+        }
+      ]
+    },
+    "faq": {
+      "sectionTitle": "Biežāk uzdotie jautājumi",
+      "list": [
+        {
+          "q": "Cik cilvēku vajag grupā?",
+          "a": "Minimālais grupas lielums ir 6 personas. Maksimālais — pēc iepriekšējas vienošanās, mēs varam uzņemt arī lielas grupas."
+        },
+        {
+          "q": "Vai bērni var piedalīties?",
+          "a": "Jā! Mums ir speciāli ieroči jaunākajiem spēlētājiem (Junior LB-3). Lāzertags ir drošs un piemērots visiem vecumiem."
+        },
+        {
+          "q": "Ko ņemt līdzi?",
+          "a": "Ērtu apģērbu un apavus, kas piemēroti kustībai mežā. Visu ekipējumu un instruktāžu nodrošinām mēs."
+        },
+        {
+          "q": "Kas notiek sliktā laikā?",
+          "a": "Spēles notiek arī lietū — tas padara piedzīvojumu vēl aizraujošāku! Tikai stipras vētras gadījumā spēles tiek pārceltas."
+        },
+        {
+          "q": "Kā nokļūt līdz jums?",
+          "a": "Mēs atrodamies \"Andžiņi\", Ances pagastā, Ventspils novadā — 38 km no Ventspils un 20 km no Dundagas. Precīzas norādes nosūtīsim pēc rezervācijas."
+        }
+      ]
+    },
+    "contact": {
+      "sectionTitle": "Sazinies ar mums",
+      "info": {
+        "address": "\"Andžiņi\", Ances pagasts, Ventspils novads",
+        "phone": "28 985 485",
+        "email": "info@lazers3.lv",
+        "distance1": "38 km no Ventspils",
+        "distance2": "20 km no Dundagas"
+      },
+      "form": {
+        "name": "Vārds",
+        "email": "E-pasts",
+        "phone": "Tālrunis",
+        "groupSize": "Grupas lielums",
+        "date": "Vēlamais datums",
+        "message": "Ziņojums",
+        "submit": "Nosūtīt ziņojumu",
+        "success": "Paldies! Mēs sazināsimies ar jums tuvākajā laikā.",
+        "error": "Kļūda nosūtot. Lūdzu, mēģiniet vēlreiz vai zvaniet mums."
+      }
+    },
+    "footer": {
+      "rights": "Visas tiesības aizsargātas.",
+      "privacy": "Privātuma politika"
+    }
+  },
+
+  "en": {
+    "nav": {
+      "services": "Games",
+      "pricing": "Pricing",
+      "gallery": "Gallery",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "book": "Book now"
+    },
+    "hero": {
+      "title": "Safe active recreation at any age",
+      "subtitle": "Laser tag and laser biathlon in the forest — adrenaline, teamwork and unforgettable emotions",
+      "cta": "Book your adventure"
+    },
+    "services": {
+      "sectionTitle": "Our services",
+      "lazertag": {
+        "title": "Laser Tag",
+        "desc": "Team battles in the forest with professional equipment. Various game scenarios — team vs team, control point capture, last survivor.",
+        "price": "from €10/pers.",
+        "cta": "Learn more"
+      },
+      "biathlon": {
+        "title": "Laser Biathlon",
+        "desc": "Combines physical exercise with precision shooting. Run, shoot, win! Perfect competition format for friends and colleagues.",
+        "price": "from €7/pers.",
+        "cta": "Learn more"
+      },
+      "corporate": {
+        "title": "Corporate Events",
+        "desc": "Team-building adventure in nature. We organize everything — you just need to show up and enjoy. Individual offers for large groups.",
+        "price": "on request",
+        "cta": "Get in touch"
+      }
+    },
+    "howItWorks": {
+      "sectionTitle": "How it works",
+      "step1": {
+        "title": "Book",
+        "desc": "Fill in the form or call us. Choose your date and time."
+      },
+      "step2": {
+        "title": "Arrive",
+        "desc": "We provide all equipment and instruction. Just come in comfortable clothing."
+      },
+      "step3": {
+        "title": "Play and win!",
+        "desc": "Experience the adrenaline in the forest! After the game — a group review of results."
+      }
+    },
+    "weapons": {
+      "sectionTitle": "Our weapons",
+      "list": [
+        {
+          "name": "Sniper MR-512",
+          "desc": "Sniper rifle for long-range players",
+          "length": "85cm",
+          "weight": "2.2kg",
+          "range": "350m",
+          "accuracy": 95,
+          "mobility": 40,
+          "firepower": 70
+        },
+        {
+          "name": "Junior LB-3",
+          "desc": "Compact weapon for younger players",
+          "length": "45cm",
+          "weight": "650g",
+          "range": "200m",
+          "accuracy": 70,
+          "mobility": 95,
+          "firepower": 50
+        },
+        {
+          "name": "Predator AK-12LT",
+          "desc": "Universal assault weapon",
+          "length": "70cm",
+          "weight": "1kg",
+          "range": "250m",
+          "accuracy": 75,
+          "mobility": 70,
+          "firepower": 80
+        },
+        {
+          "name": "Phoenix MP-9LT",
+          "desc": "Fast and accurate — ideal for aggressive style",
+          "length": "39.5cm",
+          "weight": "780g",
+          "range": "300m",
+          "accuracy": 85,
+          "mobility": 90,
+          "firepower": 65
+        },
+        {
+          "name": "Terminator MR-514",
+          "desc": "Heavy weapon with maximum firepower",
+          "length": "77cm",
+          "weight": "2.5kg",
+          "range": "200m",
+          "accuracy": 60,
+          "mobility": 35,
+          "firepower": 95
+        }
+      ],
+      "stats": {
+        "accuracy": "Accuracy",
+        "mobility": "Mobility",
+        "firepower": "Firepower"
+      }
+    },
+    "pricing": {
+      "sectionTitle": "Pricing",
+      "note": "* From the 3rd hour — only €8/pers.",
+      "packages": [
+        {
+          "name": "Warm-up",
+          "price": "€10",
+          "per": "/pers.",
+          "duration": "1 hour",
+          "features": ["6-10 person group", "Equipment included", "Instruction included", "1 game scenario"],
+          "recommended": false,
+          "cta": "Book now"
+        },
+        {
+          "name": "Gentleman's Package",
+          "price": "€18",
+          "per": "/pers.",
+          "duration": "2 hours",
+          "features": ["6-10 person group", "Equipment included", "Instruction included", "Multiple scenarios", "Best price/time value"],
+          "recommended": true,
+          "cta": "Book now"
+        },
+        {
+          "name": "Laser Biathlon",
+          "price": "from €7",
+          "per": "/pers.",
+          "duration": "2 or 4 laps",
+          "features": ["Individual or team", "2 or 4 shooting rounds", "5 targets", "Score correction +€5"],
+          "recommended": false,
+          "cta": "Book now"
+        }
+      ]
+    },
+    "gallery": {
+      "sectionTitle": "Gallery"
+    },
+    "testimonials": {
+      "sectionTitle": "Testimonials",
+      "list": [
+        {
+          "text": "Fantastic experience! The kids were thrilled and we'll definitely come back. The forest setting makes it even more exciting!",
+          "author": "Jānis K.",
+          "type": "Family event"
+        },
+        {
+          "text": "Best team-building we've ever had. Colleagues are still talking about it. Organization was flawless!",
+          "author": "Anna L.",
+          "type": "Corporate event"
+        },
+        {
+          "text": "Came with a group of friends and had an incredibly exciting day. The weapons are high quality and the instructor very professional.",
+          "author": "Mārtiņš B.",
+          "type": "Friends group"
+        }
+      ]
+    },
+    "faq": {
+      "sectionTitle": "Frequently asked questions",
+      "list": [
+        {
+          "q": "How many people do you need for a group?",
+          "a": "Minimum group size is 6 people. Maximum — by prior arrangement, we can accommodate large groups."
+        },
+        {
+          "q": "Can children participate?",
+          "a": "Yes! We have special weapons for younger players (Junior LB-3). Laser tag is safe and suitable for all ages."
+        },
+        {
+          "q": "What should I bring?",
+          "a": "Comfortable clothing and shoes suitable for moving in the forest. We provide all equipment and instruction."
+        },
+        {
+          "q": "What happens in bad weather?",
+          "a": "Games take place even in rain — it makes the adventure even more exciting! Only in case of severe storms are games rescheduled."
+        },
+        {
+          "q": "How to get to you?",
+          "a": "We are located at \"Andžiņi\", Ances parish, Ventspils municipality — 38 km from Ventspils and 20 km from Dundaga. Precise directions will be sent after booking."
+        }
+      ]
+    },
+    "contact": {
+      "sectionTitle": "Get in touch",
+      "info": {
+        "address": "\"Andžiņi\", Ances parish, Ventspils municipality",
+        "phone": "28 985 485",
+        "email": "info@lazers3.lv",
+        "distance1": "38 km from Ventspils",
+        "distance2": "20 km from Dundaga"
+      },
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "groupSize": "Group size",
+        "date": "Preferred date",
+        "message": "Message",
+        "submit": "Send message",
+        "success": "Thank you! We will get in touch with you shortly.",
+        "error": "Error sending. Please try again or call us."
+      }
+    },
+    "footer": {
+      "rights": "All rights reserved.",
+      "privacy": "Privacy policy"
+    }
+  },
+
+  "ru": {
+    "nav": {
+      "services": "Игры",
+      "pricing": "Цены",
+      "gallery": "Галерея",
+      "faq": "FAQ",
+      "contact": "Контакты",
+      "book": "Забронировать"
+    },
+    "hero": {
+      "title": "Безопасный активный отдых в любом возрасте",
+      "subtitle": "Лазертаг и лазерный биатлон в лесу — адреналин, командный дух и незабываемые эмоции",
+      "cta": "Забронировать приключение"
+    },
+    "services": {
+      "sectionTitle": "Наши услуги",
+      "lazertag": {
+        "title": "Лазертаг",
+        "desc": "Командные бои в лесу с профессиональным оборудованием. Различные игровые сценарии — команда на команду, захват контрольных точек, последний выживший.",
+        "price": "от €10/чел.",
+        "cta": "Подробнее"
+      },
+      "biathlon": {
+        "title": "Лазерный биатлон",
+        "desc": "Сочетание физической нагрузки с точной стрельбой. Беги, стреляй, побеждай! Идеальный соревновательный формат для друзей и коллег.",
+        "price": "от €7/чел.",
+        "cta": "Подробнее"
+      },
+      "corporate": {
+        "title": "Корпоративные мероприятия",
+        "desc": "Тимбилдинг-приключение на природе. Мы организуем всё — вам нужно лишь прийти и наслаждаться. Индивидуальные предложения для больших групп.",
+        "price": "по запросу",
+        "cta": "Связаться"
+      }
+    },
+    "howItWorks": {
+      "sectionTitle": "Как это работает",
+      "step1": {
+        "title": "Забронируйте",
+        "desc": "Заполните форму или позвоните нам. Выберите дату и время."
+      },
+      "step2": {
+        "title": "Приезжайте",
+        "desc": "Мы обеспечиваем всё оборудование и инструктаж. Просто приходите в удобной одежде."
+      },
+      "step3": {
+        "title": "Играйте и побеждайте!",
+        "desc": "Испытайте адреналин в лесу! После игры — совместное обсуждение результатов."
+      }
+    },
+    "weapons": {
+      "sectionTitle": "Наше оружие",
+      "list": [
+        {
+          "name": "Sniper MR-512",
+          "desc": "Снайперская винтовка для дальнобойщиков",
+          "length": "85cm",
+          "weight": "2.2kg",
+          "range": "350m",
+          "accuracy": 95,
+          "mobility": 40,
+          "firepower": 70
+        },
+        {
+          "name": "Junior LB-3",
+          "desc": "Компактное оружие для юных игроков",
+          "length": "45cm",
+          "weight": "650g",
+          "range": "200m",
+          "accuracy": 70,
+          "mobility": 95,
+          "firepower": 50
+        },
+        {
+          "name": "Predator AK-12LT",
+          "desc": "Универсальное штурмовое оружие",
+          "length": "70cm",
+          "weight": "1kg",
+          "range": "250m",
+          "accuracy": 75,
+          "mobility": 70,
+          "firepower": 80
+        },
+        {
+          "name": "Phoenix MP-9LT",
+          "desc": "Быстрый и точный — идеален для агрессивного стиля",
+          "length": "39.5cm",
+          "weight": "780g",
+          "range": "300m",
+          "accuracy": 85,
+          "mobility": 90,
+          "firepower": 65
+        },
+        {
+          "name": "Terminator MR-514",
+          "desc": "Тяжёлое оружие с максимальной огневой мощью",
+          "length": "77cm",
+          "weight": "2.5kg",
+          "range": "200m",
+          "accuracy": 60,
+          "mobility": 35,
+          "firepower": 95
+        }
+      ],
+      "stats": {
+        "accuracy": "Точность",
+        "mobility": "Мобильность",
+        "firepower": "Огневая мощь"
+      }
+    },
+    "pricing": {
+      "sectionTitle": "Цены",
+      "note": "* С 3-го часа — только €8/чел.",
+      "packages": [
+        {
+          "name": "Разминка",
+          "price": "€10",
+          "per": "/чел.",
+          "duration": "1 час",
+          "features": ["Группа 6-10 человек", "Оборудование включено", "Инструктаж включён", "1 игровой сценарий"],
+          "recommended": false,
+          "cta": "Забронировать"
+        },
+        {
+          "name": "Джентльменский пакет",
+          "price": "€18",
+          "per": "/чел.",
+          "duration": "2 часа",
+          "features": ["Группа 6-10 человек", "Оборудование включено", "Инструктаж включён", "Несколько сценариев", "Лучшее соотношение цена/время"],
+          "recommended": true,
+          "cta": "Забронировать"
+        },
+        {
+          "name": "Лазерный биатлон",
+          "price": "от €7",
+          "per": "/чел.",
+          "duration": "2 или 4 круга",
+          "features": ["Индивидуально или командой", "2 или 4 стрелковых раунда", "5 мишеней", "Коррекция результата +€5"],
+          "recommended": false,
+          "cta": "Забронировать"
+        }
+      ]
+    },
+    "gallery": {
+      "sectionTitle": "Галерея"
+    },
+    "testimonials": {
+      "sectionTitle": "Отзывы",
+      "list": [
+        {
+          "text": "Фантастический опыт! Дети были в восторге, и мы обязательно вернёмся. Лесная обстановка делает всё ещё более захватывающим!",
+          "author": "Янис К.",
+          "type": "Семейное мероприятие"
+        },
+        {
+          "text": "Лучший тимбилдинг, который у нас был. Коллеги до сих пор об этом вспоминают. Организация безупречная!",
+          "author": "Анна Л.",
+          "type": "Корпоративное мероприятие"
+        },
+        {
+          "text": "Пришли компанией друзей и провели невероятно увлекательный день. Оружие качественное, инструктор очень профессиональный.",
+          "author": "Мартиньш Б.",
+          "type": "Компания друзей"
+        }
+      ]
+    },
+    "faq": {
+      "sectionTitle": "Часто задаваемые вопросы",
+      "list": [
+        {
+          "q": "Сколько человек нужно для группы?",
+          "a": "Минимальный размер группы — 6 человек. Максимальный — по предварительной договорённости, мы можем принять и большие группы."
+        },
+        {
+          "q": "Могут ли участвовать дети?",
+          "a": "Да! У нас есть специальное оружие для юных игроков (Junior LB-3). Лазертаг безопасен и подходит для всех возрастов."
+        },
+        {
+          "q": "Что взять с собой?",
+          "a": "Удобную одежду и обувь, подходящую для передвижения по лесу. Всё оборудование и инструктаж обеспечиваем мы."
+        },
+        {
+          "q": "Что происходит в плохую погоду?",
+          "a": "Игры проходят даже в дождь — это делает приключение ещё более захватывающим! Только в случае сильной бури игры переносятся."
+        },
+        {
+          "q": "Как до вас добраться?",
+          "a": "Мы находимся в \"Андзини\", волость Анце, Вентспилсский край — 38 км от Вентспилса и 20 км от Дундаги. Точные указания отправим после бронирования."
+        }
+      ]
+    },
+    "contact": {
+      "sectionTitle": "Свяжитесь с нами",
+      "info": {
+        "address": "\"Андзини\", волость Анце, Вентспилсский край",
+        "phone": "28 985 485",
+        "email": "info@lazers3.lv",
+        "distance1": "38 км от Вентспилса",
+        "distance2": "20 км от Дундаги"
+      },
+      "form": {
+        "name": "Имя",
+        "email": "Эл. почта",
+        "phone": "Телефон",
+        "groupSize": "Размер группы",
+        "date": "Желаемая дата",
+        "message": "Сообщение",
+        "submit": "Отправить сообщение",
+        "success": "Спасибо! Мы свяжемся с вами в ближайшее время.",
+        "error": "Ошибка отправки. Пожалуйста, попробуйте ещё раз или позвоните нам."
+      }
+    },
+    "footer": {
+      "rights": "Все права защищены.",
+      "privacy": "Политика конфиденциальности"
+    }
+  }
+}
