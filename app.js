@@ -223,8 +223,8 @@
     const container = document.getElementById('pricingCards');
 
     container.innerHTML = data.packages.map(pkg => `
-      <div class="pricing-card bg-white rounded-2xl p-6 md:p-8 shadow-sm border ${pkg.recommended ? 'recommended border-accent' : 'border-gray-100'}">
-        ${pkg.recommended ? '<div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-accent text-white text-xs font-bold px-4 py-1 rounded-full shadow-lg">&#9733; ' + (currentLang === 'lv' ? 'Ieteicams' : currentLang === 'en' ? 'Recommended' : 'Рекомендуем') + '</div>' : ''}
+      <div class="pricing-card bg-white p-6 md:p-8 ${pkg.recommended ? 'recommended' : ''}">
+        ${pkg.recommended ? '<div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-accent text-white text-xs font-bold px-4 py-1 rounded-full">' + (currentLang === 'lv' ? 'Ieteicams' : currentLang === 'en' ? 'Recommended' : 'Рекомендуем') + '</div>' : ''}
         <div class="text-center mb-6">
           <h3 class="font-heading font-bold text-lg mb-3 text-dark">${pkg.name}</h3>
           <div class="flex items-baseline justify-center gap-1">
@@ -243,7 +243,7 @@
             </li>
           `).join('')}
         </ul>
-        <a href="#contact" class="block text-center ${pkg.recommended ? 'bg-accent hover:bg-accent-dark text-white shadow-lg shadow-accent/25' : 'bg-gray-100 hover:bg-gray-200 text-dark'} font-semibold py-3 rounded-lg transition-colors text-sm">
+        <a href="#contact" class="block text-center ${pkg.recommended ? 'bg-accent hover:bg-accent-dark text-white' : 'bg-beige hover:bg-gray-200 text-dark'} font-semibold py-3 rounded-full transition-colors text-sm">
           ${pkg.cta}
         </a>
       </div>
