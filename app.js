@@ -28,6 +28,7 @@
     initContactForm();
     initScrollAnimations();
     initSmoothScroll();
+    initLightbox();
   }
 
   // ============ i18n ============
@@ -47,23 +48,18 @@
       if (value !== undefined) {
         if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
           el.placeholder = value;
-        } else if (el.tagName === 'LABEL') {
-          el.textContent = value;
         } else {
           el.textContent = value;
         }
       }
     });
 
-    // Update lang buttons
     document.querySelectorAll('.lang-btn').forEach(btn => {
       btn.classList.toggle('active', btn.dataset.lang === lang);
     });
 
-    // Update HTML lang attribute
     document.documentElement.lang = lang;
 
-    // Re-render dynamic sections
     if (content) {
       renderWeapons();
       renderPricing();
@@ -94,13 +90,11 @@
     const closeIcon = btn.querySelector('.close-icon');
 
     btn.addEventListener('click', () => {
-      const isOpen = !menu.classList.contains('hidden');
       menu.classList.toggle('hidden');
       menuIcon.classList.toggle('hidden');
       closeIcon.classList.toggle('hidden');
     });
 
-    // Close on nav link click
     menu.querySelectorAll('a[href^="#"]').forEach(link => {
       link.addEventListener('click', () => {
         menu.classList.add('hidden');
@@ -118,7 +112,6 @@
     document.getElementById('weaponPrev').addEventListener('click', () => slideWeapon(-1));
     document.getElementById('weaponNext').addEventListener('click', () => slideWeapon(1));
 
-    // Touch/swipe
     let touchStartX = 0;
     const carousel = document.getElementById('weaponCarousel');
     carousel.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });
@@ -136,7 +129,7 @@
     carousel.innerHTML = data.list.map(w => `
       <div class="weapon-card">
         <div class="weapon-visual">
-          <img src="${w.image}" alt="${w.name}" class="w-full h-full object-cover rounded-xl">
+          <img src="${w.image}" alt="${w.name}">
         </div>
         <div class="flex-1 text-center md:text-left">
           <h3 class="font-heading font-bold text-2xl mb-2">${w.name}</h3>
@@ -149,22 +142,19 @@
           <div class="space-y-3 max-w-sm mx-auto md:mx-0">
             <div>
               <div class="flex justify-between text-xs text-white/50 mb-1">
-                <span>${data.stats.accuracy}</span>
-                <span>${w.accuracy}%</span>
+                <span>${data.stats.accuracy}</span><span>${w.accuracy}%</span>
               </div>
               <div class="stat-bar"><div class="stat-bar-fill" data-width="${w.accuracy}"></div></div>
             </div>
             <div>
               <div class="flex justify-between text-xs text-white/50 mb-1">
-                <span>${data.stats.mobility}</span>
-                <span>${w.mobility}%</span>
+                <span>${data.stats.mobility}</span><span>${w.mobility}%</span>
               </div>
               <div class="stat-bar"><div class="stat-bar-fill" data-width="${w.mobility}"></div></div>
             </div>
             <div>
               <div class="flex justify-between text-xs text-white/50 mb-1">
-                <span>${data.stats.firepower}</span>
-                <span>${w.firepower}%</span>
+                <span>${data.stats.firepower}</span><span>${w.firepower}%</span>
               </div>
               <div class="stat-bar"><div class="stat-bar-fill" data-width="${w.firepower}"></div></div>
             </div>
@@ -208,7 +198,6 @@
     setTimeout(() => {
       document.querySelectorAll('.stat-bar-fill').forEach(bar => {
         bar.style.width = bar.dataset.width + '%';
-        bar.classList.add('animated');
       });
     }, 100);
   }
@@ -224,11 +213,11 @@
 
     container.innerHTML = data.packages.map(pkg => `
       <div class="pricing-card bg-white p-6 md:p-8 ${pkg.recommended ? 'recommended' : ''}">
-        ${pkg.recommended ? '<div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-accent text-white text-xs font-bold px-4 py-1 rounded-full">' + (currentLang === 'lv' ? 'Ieteicams' : currentLang === 'en' ? 'Recommended' : 'Рекомендуем') + '</div>' : ''}
+        ${pkg.recommended ? '<div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-white text-xs font-bold px-4 py-1 rounded-full">' + (currentLang === 'lv' ? 'Ieteicams' : currentLang === 'en' ? 'Recommended' : 'Рекомендуем') + '</div>' : ''}
         <div class="text-center mb-6">
           <h3 class="font-heading font-bold text-lg mb-3 text-dark">${pkg.name}</h3>
           <div class="flex items-baseline justify-center gap-1">
-            <span class="font-heading font-black text-4xl text-dark">${pkg.price}</span>
+            <span class="font-heading font-black text-4xl text-primary">${pkg.price}</span>
             <span class="text-gray-500 text-sm">${pkg.per}</span>
           </div>
           <p class="text-gray-400 text-sm mt-1">${pkg.duration}</p>
@@ -243,7 +232,7 @@
             </li>
           `).join('')}
         </ul>
-        <a href="#contact" class="block text-center ${pkg.recommended ? 'bg-accent hover:bg-accent-dark text-white' : 'bg-beige hover:bg-gray-200 text-dark'} font-semibold py-3 rounded-full transition-colors text-sm">
+        <a href="#contact" class="block text-center ${pkg.recommended ? 'bg-primary hover:bg-primary-dark text-white' : 'bg-beige hover:bg-gray-200 text-dark'} font-semibold py-3 rounded-full transition-colors text-sm">
           ${pkg.cta}
         </a>
       </div>
@@ -256,18 +245,17 @@
   function initTestimonials() {
     renderTestimonials();
 
-    // Auto-slide
     setInterval(() => {
       const total = content[currentLang].testimonials.list.length;
       testimonialIndex = (testimonialIndex + 1) % total;
       updateTestimonialPosition();
     }, 6000);
 
-    // Touch/swipe
+    // Swipe support
     let touchStartX = 0;
-    const carousel = document.getElementById('testimonialSlides');
-    carousel.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });
-    carousel.addEventListener('touchend', e => {
+    const el = document.getElementById('testimonialCarousel');
+    el.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });
+    el.addEventListener('touchend', e => {
       const diff = touchStartX - e.changedTouches[0].clientX;
       if (Math.abs(diff) > 50) {
         const total = content[currentLang].testimonials.list.length;
@@ -286,7 +274,7 @@
       <div class="testimonial-slide">
         <p class="testimonial-text">${t.text}</p>
         <div class="flex items-center justify-center gap-3 mt-4">
-          ${t.avatar ? `<img src="${t.avatar}" alt="${t.author}" class="w-12 h-12 rounded-full object-cover border-2 border-accent/30">` : ''}
+          ${t.avatar ? `<img src="${t.avatar}" alt="${t.author}" class="w-12 h-12 rounded-full object-cover border-2 border-white/20">` : ''}
           <div class="text-left">
             <p class="font-semibold text-white">${t.author}</p>
             ${t.type ? `<p class="text-white/50 text-sm">${t.type}</p>` : ''}
@@ -343,14 +331,8 @@
   window.toggleFAQ = function (index) {
     const item = document.querySelector(`[data-faq="${index}"]`);
     const wasActive = item.classList.contains('active');
-
-    // Close all
     document.querySelectorAll('.faq-item').forEach(el => el.classList.remove('active'));
-
-    // Toggle clicked
-    if (!wasActive) {
-      item.classList.add('active');
-    }
+    if (!wasActive) item.classList.add('active');
   };
 
   // ============ CONTACT FORM ============
@@ -360,7 +342,6 @@
 
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
-
       const formData = new FormData(form);
       const submitBtn = form.querySelector('button[type="submit"]');
       submitBtn.disabled = true;
@@ -372,32 +353,27 @@
           body: formData,
           headers: { 'Accept': 'application/json' }
         });
-
         if (resp.ok) {
           status.textContent = content[currentLang].contact.form.success;
-          status.className = 'text-center py-3 rounded-lg text-sm font-medium success';
+          status.className = 'text-center py-3 text-sm font-medium success';
           form.reset();
         } else {
-          throw new Error('Form submission failed');
+          throw new Error();
         }
       } catch {
         status.textContent = content[currentLang].contact.form.error;
-        status.className = 'text-center py-3 rounded-lg text-sm font-medium error';
+        status.className = 'text-center py-3 text-sm font-medium error';
       }
 
       submitBtn.disabled = false;
       submitBtn.textContent = content[currentLang].contact.form.submit;
-
-      setTimeout(() => {
-        status.className = 'hidden text-center py-3 rounded-lg text-sm font-medium';
-      }, 5000);
+      setTimeout(() => { status.className = 'hidden'; }, 5000);
     });
   }
 
   // ============ SCROLL ANIMATIONS ============
   function initScrollAnimations() {
-    const sections = document.querySelectorAll('section:not(#hero)');
-    sections.forEach(section => {
+    document.querySelectorAll('section:not(#hero)').forEach(section => {
       const children = section.querySelectorAll('h2, .grid > div, .pricing-card, .faq-item, form, .space-y-6 > div');
       children.forEach((el, i) => {
         el.classList.add('fade-up');
@@ -408,9 +384,7 @@
     const observer = new IntersectionObserver(
       entries => {
         entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-          }
+          if (entry.isIntersecting) entry.target.classList.add('visible');
         });
       },
       { threshold: 0.1, rootMargin: '0px 0px -50px 0px' }
@@ -419,20 +393,101 @@
     document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
   }
 
-  // ============ SMOOTH SCROLL ============
+  // ============ SMOOTH SCROLL + URL HASH ============
   function initSmoothScroll() {
     document.querySelectorAll('a[href^="#"]').forEach(link => {
       link.addEventListener('click', e => {
+        const href = link.getAttribute('href');
+        if (href === '#') return;
         e.preventDefault();
-        const target = document.querySelector(link.getAttribute('href'));
+        const target = document.querySelector(href);
+        if (target) {
+          const headerHeight = document.getElementById('header').offsetHeight;
+          const top = target.getBoundingClientRect().top + window.scrollY - headerHeight;
+          window.scrollTo({ top, behavior: 'smooth' });
+          // Update URL hash so link is shareable
+          history.pushState(null, '', href);
+        }
+      });
+    });
+
+    // Handle direct hash URL on page load
+    if (window.location.hash) {
+      setTimeout(() => {
+        const target = document.querySelector(window.location.hash);
         if (target) {
           const headerHeight = document.getElementById('header').offsetHeight;
           const top = target.getBoundingClientRect().top + window.scrollY - headerHeight;
           window.scrollTo({ top, behavior: 'smooth' });
         }
-      });
+      }, 500);
+    }
+  }
+
+  // ============ LIGHTBOX ============
+  let lightboxImages = [];
+  let lightboxIndex = 0;
+
+  function initLightbox() {
+    const items = document.querySelectorAll('.gallery-item');
+    lightboxImages = Array.from(items).map(item => {
+      const img = item.querySelector('img');
+      return { src: img.src, alt: img.alt };
+    });
+
+    items.forEach((item, i) => {
+      item.addEventListener('click', () => openLightbox(i));
+    });
+
+    // Keyboard navigation
+    document.addEventListener('keydown', e => {
+      const lb = document.getElementById('lightbox');
+      if (lb.classList.contains('hidden')) return;
+      if (e.key === 'Escape') closeLightboxFn();
+      if (e.key === 'ArrowLeft') lightboxNavFn(-1);
+      if (e.key === 'ArrowRight') lightboxNavFn(1);
+    });
+
+    // Swipe support
+    let touchStartX = 0;
+    const lb = document.getElementById('lightbox');
+    lb.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });
+    lb.addEventListener('touchend', e => {
+      const diff = touchStartX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 50) lightboxNavFn(diff > 0 ? 1 : -1);
     });
   }
+
+  function openLightbox(index) {
+    lightboxIndex = index;
+    const lb = document.getElementById('lightbox');
+    const img = document.getElementById('lbImage');
+    img.src = lightboxImages[index].src;
+    img.alt = lightboxImages[index].alt;
+    lb.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightboxFn() {
+    document.getElementById('lightbox').classList.add('hidden');
+    document.body.style.overflow = '';
+  }
+
+  function lightboxNavFn(dir) {
+    lightboxIndex = (lightboxIndex + dir + lightboxImages.length) % lightboxImages.length;
+    const img = document.getElementById('lbImage');
+    img.src = lightboxImages[lightboxIndex].src;
+    img.alt = lightboxImages[lightboxIndex].alt;
+  }
+
+  // Global handlers for onclick in HTML
+  window.closeLightbox = function (e) {
+    if (e && e.target !== e.currentTarget) return;
+    closeLightboxFn();
+  };
+  window.lightboxNav = function (dir) {
+    lightboxNavFn(dir);
+  };
 
   // ============ START ============
   document.addEventListener('DOMContentLoaded', init);
