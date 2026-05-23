@@ -55,7 +55,7 @@
         {
           "name": "Sniper MR-512",
           "desc": "Snaipera šautene tālšāvējiem",
-          "image": "assets/weapons/sniper-mr512.jpg",
+          "image": "https://placehold.co/400x260/2a2a2a/666?text=Sniper+MR-512",
           "length": "85cm",
           "weight": "2.2kg",
           "range": "350m",
@@ -66,7 +66,7 @@
         {
           "name": "Junior LB-3",
           "desc": "Kompakts ierocis jaunākajiem spēlētājiem",
-          "image": "assets/weapons/biathlon.jpg",
+          "image": "https://placehold.co/400x260/2a2a2a/666?text=Junior+LB-3",
           "length": "45cm",
           "weight": "650g",
           "range": "200m",
@@ -77,7 +77,7 @@
         {
           "name": "Predator AK-12LT",
           "desc": "Universāls trieciena ierocis",
-          "image": "assets/weapons/predator-ak12lt.jpg",
+          "image": "https://placehold.co/400x260/2a2a2a/666?text=Predator+AK-12LT",
           "length": "70cm",
           "weight": "1kg",
           "range": "250m",
@@ -88,7 +88,7 @@
         {
           "name": "Phoenix MP-9LT",
           "desc": "Ātrs un precīzs — ideāls agresīvam stilam",
-          "image": "assets/weapons/phoenix-mp9lt.jpg",
+          "image": "https://placehold.co/400x260/2a2a2a/666?text=Phoenix+MP-9LT",
           "length": "39.5cm",
           "weight": "780g",
           "range": "300m",
@@ -99,7 +99,7 @@
         {
           "name": "Terminator MR-514",
           "desc": "Smagais ierocis ar maksimālu ugunsspēku",
-          "image": "assets/weapons/terminator-mr514.jpg",
+          "image": "https://placehold.co/400x260/2a2a2a/666?text=Terminator+MR-514",
           "length": "77cm",
           "weight": "2.5kg",
           "range": "200m",
@@ -157,19 +157,19 @@
           "text": "Paldies, noteikti atgriezīsimies! Mans pusaudzis un viņa draugi lieliski pavadīja laiku, spēlējot lāzertagu Lāzers3 vadībā. Saimnieki bija jautri, izpalīdzīgi un viesmīlīgi. Mēs izbaudījām daudz jautru brīžu, smieklu un kārtīgi izkustējāmies. Paldies!",
           "author": "Egita",
           "type": "",
-          "avatar": "assets/testimonials/egita.png"
+          "avatar": "https://placehold.co/100x100/ddd/666?text=E"
         },
         {
           "text": "Par spīti tam, ka ieradāmies laikā, kad vēl bija auksts un lietains – pasākums bija burvīgs. Ieradāmies ar bērnu grupu, kurā bija 15 bērni. Instruktori bija atsaucīgi gan pasākuma dienā, gan pirms tam... Bērni nevar pārtraukt runāt par to, cik daudz prieka viņiem bija!",
           "author": "Arta",
           "type": "",
-          "avatar": "assets/testimonials/arta.png"
+          "avatar": "https://placehold.co/100x100/ddd/666?text=A"
         },
         {
           "text": "Mūsu lāzertaga pasākums bija neaizmirstams! Sākumā es biju skeptisks… likās, kāds lāzertags var būt mežā, bet, kad tur nokļuvu, sapratu, ka nav piemērotākas vietas šādām spēlēm, kā mežs!",
           "author": "Gatis",
           "type": "",
-          "avatar": "assets/testimonials/mezs.jpg"
+          "avatar": "https://placehold.co/100x100/ddd/666?text=G"
         }
       ]
     },
@@ -281,7 +281,7 @@
         {
           "name": "Sniper MR-512",
           "desc": "Sniper rifle for long-range players",
-          "image": "assets/weapons/sniper-mr512.jpg",
+          "image": "https://placehold.co/400x260/2a2a2a/666?text=Sniper+MR-512",
           "length": "85cm",
           "weight": "2.2kg",
           "range": "350m",
@@ -292,7 +292,7 @@
         {
           "name": "Junior LB-3",
           "desc": "Compact weapon for younger players",
-          "image": "assets/weapons/biathlon.jpg",
+          "image": "https://placehold.co/400x260/2a2a2a/666?text=Junior+LB-3",
           "length": "45cm",
           "weight": "650g",
           "range": "200m",
@@ -303,7 +303,7 @@
         {
           "name": "Predator AK-12LT",
           "desc": "Universal assault weapon",
-          "image": "assets/weapons/predator-ak12lt.jpg",
+          "image": "https://placehold.co/400x260/2a2a2a/666?text=Predator+AK-12LT",
           "length": "70cm",
           "weight": "1kg",
           "range": "250m",
@@ -314,7 +314,7 @@
         {
           "name": "Phoenix MP-9LT",
           "desc": "Fast and accurate — ideal for aggressive style",
-          "image": "assets/weapons/phoenix-mp9lt.jpg",
+          "image": "https://placehold.co/400x260/2a2a2a/666?text=Phoenix+MP-9LT",
           "length": "39.5cm",
           "weight": "780g",
           "range": "300m",
@@ -325,7 +325,7 @@
         {
           "name": "Terminator MR-514",
           "desc": "Heavy weapon with maximum firepower",
-          "image": "assets/weapons/terminator-mr514.jpg",
+          "image": "https://placehold.co/400x260/2a2a2a/666?text=Terminator+MR-514",
           "length": "77cm",
           "weight": "2.5kg",
           "range": "200m",
@@ -383,19 +383,19 @@
           "text": "Thank you, we will definitely come back! My teenager and his friends had a great time playing laser tag with Lāzers3. The hosts were fun, helpful and hospitable. We enjoyed many fun moments, laughs and got a proper workout. Thank you!",
           "author": "Egita",
           "type": "",
-          "avatar": "assets/testimonials/egita.png"
+          "avatar": "https://placehold.co/100x100/ddd/666?text=E"
         },
         {
           "text": "Despite the cold and rainy weather when we arrived — the event was wonderful. We came with a group of 15 kids. The instructors were responsive both on the day and beforehand... The kids can't stop talking about how much fun they had!",
           "author": "Arta",
           "type": "",
-          "avatar": "assets/testimonials/arta.png"
+          "avatar": "https://placehold.co/100x100/ddd/666?text=A"
         },
         {
           "text": "Our laser tag event was unforgettable! At first I was skeptical... I wondered what laser tag could be like in the forest, but when I got there, I realized there's no better place for such games than the forest!",
           "author": "Gatis",
           "type": "",
-          "avatar": "assets/testimonials/mezs.jpg"
+          "avatar": "https://placehold.co/100x100/ddd/666?text=G"
         }
       ]
     },
@@ -507,7 +507,7 @@
         {
           "name": "Sniper MR-512",
           "desc": "Снайперская винтовка для дальнобойщиков",
-          "image": "assets/weapons/sniper-mr512.jpg",
+          "image": "https://placehold.co/400x260/2a2a2a/666?text=Sniper+MR-512",
           "length": "85cm",
           "weight": "2.2kg",
           "range": "350m",
@@ -518,7 +518,7 @@
         {
           "name": "Junior LB-3",
           "desc": "Компактное оружие для юных игроков",
-          "image": "assets/weapons/biathlon.jpg",
+          "image": "https://placehold.co/400x260/2a2a2a/666?text=Junior+LB-3",
           "length": "45cm",
           "weight": "650g",
           "range": "200m",
@@ -529,7 +529,7 @@
         {
           "name": "Predator AK-12LT",
           "desc": "Универсальное штурмовое оружие",
-          "image": "assets/weapons/predator-ak12lt.jpg",
+          "image": "https://placehold.co/400x260/2a2a2a/666?text=Predator+AK-12LT",
           "length": "70cm",
           "weight": "1kg",
           "range": "250m",
@@ -540,7 +540,7 @@
         {
           "name": "Phoenix MP-9LT",
           "desc": "Быстрый и точный — идеален для агрессивного стиля",
-          "image": "assets/weapons/phoenix-mp9lt.jpg",
+          "image": "https://placehold.co/400x260/2a2a2a/666?text=Phoenix+MP-9LT",
           "length": "39.5cm",
           "weight": "780g",
           "range": "300m",
@@ -551,7 +551,7 @@
         {
           "name": "Terminator MR-514",
           "desc": "Тяжёлое оружие с максимальной огневой мощью",
-          "image": "assets/weapons/terminator-mr514.jpg",
+          "image": "https://placehold.co/400x260/2a2a2a/666?text=Terminator+MR-514",
           "length": "77cm",
           "weight": "2.5kg",
           "range": "200m",
@@ -609,19 +609,19 @@
           "text": "Спасибо, обязательно вернёмся! Мой подросток и его друзья отлично провели время, играя в лазертаг с Lāzers3. Хозяева были весёлыми, отзывчивыми и гостеприимными. Мы получили массу весёлых моментов, смеха и как следует размялись. Спасибо!",
           "author": "Эгита",
           "type": "",
-          "avatar": "assets/testimonials/egita.png"
+          "avatar": "https://placehold.co/100x100/ddd/666?text=E"
         },
         {
           "text": "Несмотря на то, что мы приехали в холодную и дождливую погоду — мероприятие было чудесным. Мы приехали с группой из 15 детей. Инструкторы были отзывчивы как в день мероприятия, так и заранее... Дети не могут перестать рассказывать, как им было весело!",
           "author": "Арта",
           "type": "",
-          "avatar": "assets/testimonials/arta.png"
+          "avatar": "https://placehold.co/100x100/ddd/666?text=A"
         },
         {
           "text": "Наше мероприятие по лазертагу было незабываемым! Сначала я был скептиком... думал, какой лазертаг может быть в лесу, но когда попал туда, понял, что нет лучшего места для таких игр, чем лес!",
           "author": "Гатис",
           "type": "",
-          "avatar": "assets/testimonials/mezs.jpg"
+          "avatar": "https://placehold.co/100x100/ddd/666?text=G"
         }
       ]
     },
