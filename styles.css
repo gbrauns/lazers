@@ -2,8 +2,8 @@
 :root {
   --primary: #e5a40f;
   --primary-dark: #c48a0d;
-  --accent: #2a9d8f;
-  --accent-dark: #238579;
+  --accent: #c4652a;
+  --accent-dark: #a8541f;
   --beige: #f3ede8;
   --dark: #1a1a1a;
 }
@@ -185,12 +185,12 @@ body {
 /* ============ LANGUAGE SWITCHER ============ */
 .lang-btn.active {
   color: white !important;
-  background: rgba(42, 157, 143, 0.3);
+  background: rgba(196, 101, 42, 0.3);
 }
 
 /* ============ FORM STATUS ============ */
 #formStatus.success {
-  background: rgba(42, 157, 143, 0.1);
+  background: rgba(196, 101, 42, 0.1);
   color: var(--accent-dark);
 }
 
@@ -213,5 +213,5 @@ body {
 
 /* ============ SELECTION ============ */
 ::selection {
-  background: rgba(42, 157, 143, 0.3);
+  background: rgba(196, 101, 42, 0.3);
 }
