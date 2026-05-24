@@ -1,7 +1,8 @@
 {
   "lv": {
     "nav": {
-      "services": "Spēles",
+      "whoFor": "Kam?",
+      "scenarios": "Scenāriji",
       "pricing": "Cenas",
       "gallery": "Galerija",
       "faq": "FAQ",
@@ -9,45 +10,169 @@
       "book": "Rezervēt"
     },
     "hero": {
-      "title": "Droša aktīvā atpūta jebkurā vecumā",
-      "subtitle": "Lāzertags un lāzerbiatlons mežā — adrenalīns, komandas gars un neaizmirstamas emocijas",
-      "cta": "Rezervē piedzīvojumu"
+      "title": "Nevis vienkārši lāzertags.\nMisija Ziemeļkurzemes mežos.",
+      "subtitle": "Komandas saliedēšana, ko neaizmirsīs vēl ilgi",
+      "cta": "Rezervē piedzīvojumu",
+      "stat1Num": "350m",
+      "stat1": "šaušanas rādiuss",
+      "stat2Num": "5",
+      "stat2": "ieroču modeļi",
+      "stat3Num": "38km",
+      "stat3": "no Ventspils"
     },
-    "services": {
-      "sectionTitle": "Mūsu pakalpojumi",
-      "lazertag": {
-        "title": "Lāzertags",
-        "desc": "Komandu cīņas mežā ar profesionālu ekipējumu. Dažādi spēļu scenāriji — komanda pret komandu, kontrolpunktu ieņemšana, pēdējais izdzīvojušais.",
-        "price": "no €10/pers.",
-        "cta": "Uzzināt vairāk"
-      },
-      "biathlon": {
-        "title": "Lāzerbiatlons",
-        "desc": "Apvieno fizisko slodzi ar precīzu šaušanu. Skrien, šauj, uzvarē! Ideāls sacensību formāts draugiem un kolēģiem.",
-        "price": "no €7/pers.",
-        "cta": "Uzzināt vairāk"
-      },
-      "corporate": {
-        "title": "Korporatīvie pasākumi",
-        "desc": "Team-building piedzīvojums dabā. Mēs organizējam visu — jums tikai jāierodas un jāizbauda. Individuāli piedāvājumi lielām grupām.",
-        "price": "pēc pieprasījuma",
-        "cta": "Sazināties"
-      }
+    "whatIsIt": {
+      "sectionTitle": "[MISIJAS APRAKSTS]",
+      "title": "Tā nav paintbola sāpe.\nTā ir taktiska komandu cīņa.",
+      "point1Title": "Nav sāpīgi",
+      "point1Desc": "Lāzera sensors, ne krāsas lode. Droši bērniem no 6 gadiem un pieaugušajiem.",
+      "point2Title": "Dabā, ne hallē",
+      "point2Desc": "Īsts mežs, īsta taktika. Paslēpies aiz kokiem, uzbrūc no sāniem, uzvarē.",
+      "point3Title": "Komandas spēle",
+      "point3Desc": "Stratēģija, komunikācija, adrenalīns. Tas saliedē jebkuru grupu."
+    },
+    "whyUs": {
+      "sectionTitle": "Kāpēc izvēlēties mūs?",
+      "reason1Title": "Īsts mežs, īsta taktika",
+      "reason1Desc": "Ziemeļkurzemes mežos — nav sterila halle, ir īsta dabas vide ar kokiem, grāvjiem un pakalniņiem.",
+      "reason2Title": "Profesionāli ieroči",
+      "reason2Desc": "5 dažādi ieroču modeļi — no snaiperiem līdz ātrstrēlniekiem. Katram savu stilu.",
+      "reason3Title": "Visiem vecumiem",
+      "reason3Desc": "Speciāli Junior ieroči bērniem no 6 gadiem. Pilna drošība, instruktori vienmēr klāt.",
+      "reason4Title": "Vairāk nekā spēle",
+      "reason4Desc": "Ugunskurs, piknika zona, grils — viss vienuviet. Padariet dienu īpašu."
+    },
+    "scenarios": {
+      "sectionTitle": "[MISIJAS VEIDI]",
+      "title": "Nav viena un tā paša.\nKatru reizi jauns izaicinājums.",
+      "list": [
+        {
+          "icon": "⚔️",
+          "name": "Team Deathmatch",
+          "desc": "Komanda pret komandu. Pēdējā komanda ar dzīviem spēlētājiem uzvar.",
+          "duration": "15-20 min",
+          "players": "6-20 spēlētāji"
+        },
+        {
+          "icon": "🏴",
+          "name": "Kontrolpunktu ieņemšana",
+          "desc": "Ieņem zonu, turi 60 sekundes, iegūsti punktus. Stratēģija + ātrums.",
+          "duration": "20-30 min",
+          "players": "8-20 spēlētāji"
+        },
+        {
+          "icon": "👑",
+          "name": "King of the Hill",
+          "desc": "Viens pret visiem. Kurš ilgāk izdzīvo centrā?",
+          "duration": "10-15 min",
+          "players": "6-15 spēlētāji"
+        },
+        {
+          "icon": "🎯",
+          "name": "VIP aizsardzība",
+          "desc": "Vienai komandai jāaizsargā VIP, otrai — jālikvidē. Spraiga misija.",
+          "duration": "15-25 min",
+          "players": "10-20 spēlētāji"
+        },
+        {
+          "icon": "💣",
+          "name": "Sabotāža",
+          "desc": "Uzstādi 'bumbu', aizstāvi pozīciju. Pretinieki — atspējojiet. Taktiska.",
+          "duration": "20-30 min",
+          "players": "8-16 spēlētāji"
+        },
+        {
+          "icon": "🏃",
+          "name": "Lāzerbiatlons",
+          "desc": "Skrien + šauj. Individuāla vai komandas sacensība ar laika uzskaiti.",
+          "duration": "15-40 min",
+          "players": "1-20 dalībnieki"
+        }
+      ]
+    },
+    "whoIsItFor": {
+      "sectionTitle": "Kam tas ir?",
+      "segments": [
+        {
+          "icon": "🎂",
+          "title": "Dzimšanas dienām",
+          "tagline": "Ballīte, ko atcerēsies ilgāk nekā torti",
+          "desc": "Aizmirsti par boulingiem un kinozālēm. Šeit tavs bērns un viņa draugi jutīsies kā īstā akciju filmā. Spraiga, droša, neaizmirstama.",
+          "features": [
+            "Speciāli Junior ieroči mazākajiem (no 6 gadiem)",
+            "Instruktori vienmēr klāt — pilna drošība",
+            "Iespēja pievienot piknika zonu un ugunskuru",
+            "Fotogrāfijas un video no spēles"
+          ],
+          "cta": "Rezervēt dzimšanas dienu",
+          "image": "https://placehold.co/800x600/2a2a2a/666?text=Dzimsanas+diena"
+        },
+        {
+          "icon": "🍺",
+          "title": "Vecpuišu/vecmeitu ballītēm",
+          "tagline": "Stāsts, par ko runāt vēl gadiem",
+          "desc": "Te jūs paceliet adrenalīnu mežā, saliedēsiet sevi pirms lielās dienas un iegūsiet episkus foto. Nekādu nepatīkamu pārsteigumu.",
+          "features": [
+            "Privāta teritorija — tikai jūsu grupa",
+            "Dažādi scenāriji — no komandu cīņām līdz VIP aizsardzībai",
+            "Var kombinēt ar ugunskuru un grilu",
+            "Tuvumā var organizēt nakšņošanu"
+          ],
+          "cta": "Sazināties par ballīti",
+          "image": "https://placehold.co/800x600/2a2a2a/666?text=Vecpuisu+ballite"
+        },
+        {
+          "icon": "🎒",
+          "title": "Skolēnu grupām",
+          "tagline": "Ekskursija, kas nav garlaicīga",
+          "desc": "Komandas saliedēšana, fiziskā aktivitāte un emocijas — viss vienuviet. Bērni runā par to vēl mēnešiem.",
+          "features": [
+            "Grupu cenas (no €7/pers.)",
+            "Pielāgoti scenāriji atkarībā no vecuma",
+            "Izglītojoša instruktāža par komandas darbu",
+            "Skolotāji spēlē bez maksas (1 uz 10 bērniem)"
+          ],
+          "cta": "Pieteikt skolas grupu",
+          "image": "https://placehold.co/800x600/2a2a2a/666?text=Skolenu+grupa"
+        },
+        {
+          "icon": "💼",
+          "title": "Uzņēmumiem",
+          "tagline": "Kolēģi, kas cīnās kopā, strādā kopā labāk",
+          "desc": "Aizmirstiet par plastmasas konstruktoriem konferenču zālē. Šeit jūsu komanda pieredzēs īstu spiedienu, komunikāciju un saliedēšanos.",
+          "features": [
+            "Individuāli scenāriji jūsu komandai",
+            "Komandu rotācija — visi spēlē ar visiem",
+            "Rezultātu analīze — kas ir līderis, kas taktiskais domātājs",
+            "Pilns pakalpojums: ugunskurs, piknika zona, grils",
+            "Korporatīvie piedāvājumi grupām 20+ cilvēki"
+          ],
+          "cta": "Saņemt piedāvājumu",
+          "image": "https://placehold.co/800x600/2a2a2a/666?text=Team+Building"
+        },
+        {
+          "icon": "👨‍👩‍👧‍👦",
+          "title": "Ģimenēm",
+          "tagline": "Kopīgs piedzīvojums, nevis ekrāni",
+          "desc": "Nedēļas nogale, kad visi — no 6 līdz 60 gadiem — ir vienā komandā. Visi kopā mežā, visi ar ieročiem, visi ar emocijām.",
+          "features": [
+            "Ieroči visiem vecumiem un augumiem",
+            "Ģimenes scenāriji — vecāki + bērni vienā komandā",
+            "Piknika zona — pēc spēles var paēst kopā",
+            "Instruktori uzrauga visu procesu"
+          ],
+          "cta": "Plānot ģimenes dienu",
+          "image": "https://placehold.co/800x600/2a2a2a/666?text=Gimenes+diena"
+        }
+      ]
     },
     "howItWorks": {
-      "sectionTitle": "Kā tas strādā?",
-      "step1": {
-        "title": "Rezervē",
-        "desc": "Aizpildi formu vai piezvani mums. Izvēlies datumu un laiku."
-      },
-      "step2": {
-        "title": "Ieradies",
-        "desc": "Mēs nodrošinām ekipējumu un instruktāžu. Tev tikai jāierodas ērtā apģērbā."
-      },
-      "step3": {
-        "title": "Spēlē un uzvarē!",
-        "desc": "Izbaudiet adrenalīnu mežā! Pēc spēles — kopīga rezultātu apspriešana."
-      }
+      "sectionTitle": "Kā notiek spēle?",
+      "step1": { "title": "Rezervē spēli", "desc": "Piezvani vai aizpildi formu. Izvēlies datumu un grupas lielumu. Mēs apstiprinām." },
+      "step2": { "title": "Ierodies poligonā", "desc": "38 km no Ventspils. Nosūtām karti. Ieradies 10 min pirms — ērtos apavos!" },
+      "step3": { "title": "Instruktāža", "desc": "5-10 min ievads: kā darbojas ierocis, kā uzlādēt, kā saprast, ka esi trāpīts." },
+      "step4": { "title": "Komandu sadale", "desc": "Sadalām komandās, izvēlamies ieročus. Snaiperis vai ātrais MP-9? Gatavi!" },
+      "step5": { "title": "Misijas!", "desc": "Team Deathmatch, kontrolpunkti, VIP aizsardzība — 1-2h tīra adrenalīna!" },
+      "step6": { "title": "Rezultāti un emocijas", "desc": "Apspriežam, kas bija MVP. Foto kopā. Emocijas, kas paliek." }
     },
     "weapons": {
       "sectionTitle": "Mūsu ieroči",
@@ -116,14 +241,17 @@
     },
     "pricing": {
       "sectionTitle": "Cenas",
-      "note": "* No 3. stundas — tikai €8/pers.",
+      "subtitle": "Bez slēptām izmaksām. Ko maksā, to arī saņem — plus emocijas bez maksas.",
+      "recommendedLabel": "Populārākais",
+      "note": "* No 3. stundas — tikai €8/pers. Grupām 15+ — individuāli piedāvājumi.",
       "packages": [
         {
           "name": "Iesildīšanās",
           "price": "€10",
           "per": "/pers.",
           "duration": "1 stunda",
-          "features": ["6-10 personu grupa", "Ekipējums iekļauts", "Instruktāža iekļauta", "1 spēles scenārijs"],
+          "groupSize": "Optimāli: 6-10 cilvēki",
+          "features": ["1 stunda spēles laika", "Viss ekipējums iekļauts", "Pilna instruktāža", "1-2 spēļu scenāriji"],
           "recommended": false,
           "cta": "Rezervēt"
         },
@@ -132,23 +260,33 @@
           "price": "€18",
           "per": "/pers.",
           "duration": "2 stundas",
-          "features": ["6-10 personu grupa", "Ekipējums iekļauts", "Instruktāža iekļauta", "Vairāki scenāriji", "Labākā cena/laiks"],
+          "groupSize": "Optimāli: 8-16 cilvēki",
+          "features": ["2 stundas spēles laika", "Viss ekipējums iekļauts", "Pilna instruktāža", "3-5 dažādi scenāriji", "Foto no spēles"],
           "recommended": true,
-          "cta": "Rezervēt"
+          "cta": "Rezervēt (populārākais!)"
         },
         {
           "name": "Lāzerbiatlons",
           "price": "no €7",
           "per": "/pers.",
           "duration": "2 vai 4 apļi",
-          "features": ["Individuāls vai komandas", "2 vai 4 šaušanas kārtas", "5 mērķi", "Rezultātu korekcija +€5"],
+          "groupSize": "Individuāli vai komandas",
+          "features": ["Individuāls vai komandu režīms", "2 apļi (€7) vai 4 apļi (€12)", "5 mērķi katrā kārtā", "Laika uzskaite + rezultāti"],
           "recommended": false,
-          "cta": "Rezervēt"
+          "cta": "Rezervēt biatlonu"
         }
-      ]
+      ],
+      "whatHappens": {
+        "title": "Ko sagaidīt pēc rezervācijas?",
+        "step1": "Saņemsi apstiprinājumu uz e-pastu vai telefonu (parasti 2h laikā)",
+        "step2": "Nosūtīsim precīzu atrašanās vietas karti un Waze/Google Maps linku",
+        "step3": "Ieradies 10 min pirms laika — mēs sagaidīsim ar ekipējumu",
+        "step4": "Instruktāža, komandu sadale, un — SPĒLE!"
+      }
     },
     "gallery": {
-      "sectionTitle": "Galerija"
+      "sectionTitle": "[ARHĪVS]",
+      "title": "Emocijas, kas paliek fotogrāfijās"
     },
     "testimonials": {
       "sectionTitle": "Atsauksmes",
@@ -219,6 +357,18 @@
         "error": "Kļūda nosūtot. Lūdzu, mēģiniet vēlreiz vai zvaniet mums."
       }
     },
+    "map": {
+      "sectionTitle": "Kā mūs atrast?",
+      "navTitle": "Navigācija",
+      "openWaze": "Atvert Waze",
+      "openMaps": "Atvert Google Maps",
+      "directNav": "Tiešā navigācija",
+      "altNav": "Alternatīvā navigācija",
+      "directionsTitle": "Norādes",
+      "direction1": "No Ventspils: virzienā uz Dundagu, 38 km",
+      "direction2": "No Dundagas: virzienā uz Ventspili, 20 km",
+      "direction3": "Pie ceļa redzēsi norāžu zīmi \"Andžiņi\""
+    },
     "footer": {
       "rights": "Visas tiesības aizsargātas.",
       "privacy": "Privātuma politika"
@@ -227,7 +377,8 @@
 
   "en": {
     "nav": {
-      "services": "Games",
+      "whoFor": "Who for?",
+      "scenarios": "Scenarios",
       "pricing": "Pricing",
       "gallery": "Gallery",
       "faq": "FAQ",
@@ -235,45 +386,169 @@
       "book": "Book now"
     },
     "hero": {
-      "title": "Safe active recreation at any age",
-      "subtitle": "Laser tag and laser biathlon in the forest — adrenaline, teamwork and unforgettable emotions",
-      "cta": "Book your adventure"
+      "title": "Not just laser tag.\nA mission in North Kurzeme forests.",
+      "subtitle": "Team building they won't forget",
+      "cta": "Book your adventure",
+      "stat1Num": "350m",
+      "stat1": "shooting range",
+      "stat2Num": "5",
+      "stat2": "weapon models",
+      "stat3Num": "38km",
+      "stat3": "from Ventspils"
     },
-    "services": {
-      "sectionTitle": "Our services",
-      "lazertag": {
-        "title": "Laser Tag",
-        "desc": "Team battles in the forest with professional equipment. Various game scenarios — team vs team, control point capture, last survivor.",
-        "price": "from €10/pers.",
-        "cta": "Learn more"
-      },
-      "biathlon": {
-        "title": "Laser Biathlon",
-        "desc": "Combines physical exercise with precision shooting. Run, shoot, win! Perfect competition format for friends and colleagues.",
-        "price": "from €7/pers.",
-        "cta": "Learn more"
-      },
-      "corporate": {
-        "title": "Corporate Events",
-        "desc": "Team-building adventure in nature. We organize everything — you just need to show up and enjoy. Individual offers for large groups.",
-        "price": "on request",
-        "cta": "Get in touch"
-      }
+    "whatIsIt": {
+      "sectionTitle": "[MISSION BRIEFING]",
+      "title": "Not paintball pain.\nIt's a tactical team battle.",
+      "point1Title": "No pain",
+      "point1Desc": "Laser sensors, not paint. Safe for kids from 6 and adults.",
+      "point2Title": "Outdoors, not indoors",
+      "point2Desc": "Real forest, real tactics. Hide behind trees, flank, win.",
+      "point3Title": "Team game",
+      "point3Desc": "Strategy, communication, adrenaline. It bonds any group."
+    },
+    "whyUs": {
+      "sectionTitle": "Why choose us?",
+      "reason1Title": "Real forest, real tactics",
+      "reason1Desc": "In the forests of North Kurzeme — not a sterile arena, but a real natural environment with trees, ditches and hills.",
+      "reason2Title": "Professional weapons",
+      "reason2Desc": "5 different weapon models — from snipers to rapid-fire. Each with its own style.",
+      "reason3Title": "For all ages",
+      "reason3Desc": "Special Junior weapons for kids from 6 years. Full safety, instructors always present.",
+      "reason4Title": "More than a game",
+      "reason4Desc": "Campfire, picnic area, grill — everything in one place. Make the day special."
+    },
+    "scenarios": {
+      "sectionTitle": "[MISSION TYPES]",
+      "title": "Never the same game twice.\nA new challenge every time.",
+      "list": [
+        {
+          "icon": "⚔️",
+          "name": "Team Deathmatch",
+          "desc": "Team vs team. The last team with players standing wins.",
+          "duration": "15-20 min",
+          "players": "6-20 players"
+        },
+        {
+          "icon": "🏴",
+          "name": "Control Point Capture",
+          "desc": "Capture the zone, hold for 60 seconds, earn points. Strategy + speed.",
+          "duration": "20-30 min",
+          "players": "8-20 players"
+        },
+        {
+          "icon": "👑",
+          "name": "King of the Hill",
+          "desc": "One against all. Who survives longest in the center?",
+          "duration": "10-15 min",
+          "players": "6-15 players"
+        },
+        {
+          "icon": "🎯",
+          "name": "VIP Protection",
+          "desc": "One team must protect the VIP, the other — eliminate. An intense mission.",
+          "duration": "15-25 min",
+          "players": "10-20 players"
+        },
+        {
+          "icon": "💣",
+          "name": "Sabotage",
+          "desc": "Plant the 'bomb', defend the position. Enemies — disarm it. Tactical.",
+          "duration": "20-30 min",
+          "players": "8-16 players"
+        },
+        {
+          "icon": "🏃",
+          "name": "Laser Biathlon",
+          "desc": "Run + shoot. Individual or team competition with time tracking.",
+          "duration": "15-40 min",
+          "players": "1-20 participants"
+        }
+      ]
+    },
+    "whoIsItFor": {
+      "sectionTitle": "Who is it for?",
+      "segments": [
+        {
+          "icon": "🎂",
+          "title": "For Birthdays",
+          "tagline": "A party they'll remember longer than the cake",
+          "desc": "Forget bowling alleys and cinemas. Here your child and their friends will feel like they're in a real action movie. Exciting, safe, unforgettable.",
+          "features": [
+            "Special Junior weapons for the youngest (from age 6)",
+            "Instructors always present — full safety",
+            "Option to add picnic area and campfire",
+            "Photos and video from the game"
+          ],
+          "cta": "Book a birthday party",
+          "image": "https://placehold.co/800x600/2a2a2a/666?text=Birthday+Party"
+        },
+        {
+          "icon": "🍺",
+          "title": "Bachelor/Bachelorette Parties",
+          "tagline": "A story to tell for years",
+          "desc": "Here you'll pump up the adrenaline in the forest, bond before the big day and get epic photos. No unpleasant surprises.",
+          "features": [
+            "Private territory — your group only",
+            "Various scenarios — from team battles to VIP protection",
+            "Can be combined with campfire and grill",
+            "Accommodation can be arranged nearby"
+          ],
+          "cta": "Get in touch about your party",
+          "image": "https://placehold.co/800x600/2a2a2a/666?text=Bachelor+Party"
+        },
+        {
+          "icon": "🎒",
+          "title": "School Groups",
+          "tagline": "A field trip that's not boring",
+          "desc": "Team building, physical activity and emotions — all in one place. Kids talk about it for months.",
+          "features": [
+            "Group pricing (from €7/pers.)",
+            "Scenarios adapted by age",
+            "Educational briefing on teamwork",
+            "Teachers play free (1 per 10 kids)"
+          ],
+          "cta": "Register a school group",
+          "image": "https://placehold.co/800x600/2a2a2a/666?text=School+Group"
+        },
+        {
+          "icon": "💼",
+          "title": "For Companies",
+          "tagline": "Colleagues who fight together, work better together",
+          "desc": "Forget plastic building blocks in conference rooms. Here your team will experience real pressure, communication and bonding.",
+          "features": [
+            "Custom scenarios for your team",
+            "Team rotation — everyone plays with everyone",
+            "Results analysis — who's the leader, who's the tactical thinker",
+            "Full service: campfire, picnic area, grill",
+            "Corporate offers for groups of 20+"
+          ],
+          "cta": "Get a quote",
+          "image": "https://placehold.co/800x600/2a2a2a/666?text=Team+Building"
+        },
+        {
+          "icon": "👨‍👩‍👧‍👦",
+          "title": "For Families",
+          "tagline": "A shared adventure, not screens",
+          "desc": "A weekend where everyone — from 6 to 60 — is on the same team. Everyone together in the forest, everyone with weapons, everyone with emotions.",
+          "features": [
+            "Weapons for all ages and sizes",
+            "Family scenarios — parents + kids on one team",
+            "Picnic area — eat together after the game",
+            "Instructors supervise the entire process"
+          ],
+          "cta": "Plan a family day",
+          "image": "https://placehold.co/800x600/2a2a2a/666?text=Family+Day"
+        }
+      ]
     },
     "howItWorks": {
-      "sectionTitle": "How it works",
-      "step1": {
-        "title": "Book",
-        "desc": "Fill in the form or call us. Choose your date and time."
-      },
-      "step2": {
-        "title": "Arrive",
-        "desc": "We provide all equipment and instruction. Just come in comfortable clothing."
-      },
-      "step3": {
-        "title": "Play and win!",
-        "desc": "Experience the adrenaline in the forest! After the game — a group review of results."
-      }
+      "sectionTitle": "How does the game work?",
+      "step1": { "title": "Book the game", "desc": "Call or fill out the form. Choose a date and group size. We confirm." },
+      "step2": { "title": "Arrive at the field", "desc": "38 km from Ventspils. We send you a map. Arrive 10 min early — in comfortable shoes!" },
+      "step3": { "title": "Briefing", "desc": "5-10 min introduction: how the weapon works, how to reload, how to know you've been hit." },
+      "step4": { "title": "Team selection", "desc": "We split into teams, choose weapons. Sniper or fast MP-9? Ready!" },
+      "step5": { "title": "Missions!", "desc": "Team Deathmatch, control points, VIP protection — 1-2h of pure adrenaline!" },
+      "step6": { "title": "Results and emotions", "desc": "We discuss who was MVP. Group photo. Emotions that stay with you." }
     },
     "weapons": {
       "sectionTitle": "Our weapons",
@@ -342,14 +617,17 @@
     },
     "pricing": {
       "sectionTitle": "Pricing",
-      "note": "* From the 3rd hour — only €8/pers.",
+      "subtitle": "No hidden fees. You get what you pay for — plus emotions for free.",
+      "recommendedLabel": "Most popular",
+      "note": "* From the 3rd hour — only €8/pers. Groups of 15+ — individual offers.",
       "packages": [
         {
           "name": "Warm-up",
           "price": "€10",
           "per": "/pers.",
           "duration": "1 hour",
-          "features": ["6-10 person group", "Equipment included", "Instruction included", "1 game scenario"],
+          "groupSize": "Optimal: 6-10 people",
+          "features": ["1 hour of game time", "All equipment included", "Full briefing", "1-2 game scenarios"],
           "recommended": false,
           "cta": "Book now"
         },
@@ -358,29 +636,39 @@
           "price": "€18",
           "per": "/pers.",
           "duration": "2 hours",
-          "features": ["6-10 person group", "Equipment included", "Instruction included", "Multiple scenarios", "Best price/time value"],
+          "groupSize": "Optimal: 8-16 people",
+          "features": ["2 hours of game time", "All equipment included", "Full briefing", "3-5 different scenarios", "Photos from the game"],
           "recommended": true,
-          "cta": "Book now"
+          "cta": "Book now (most popular!)"
         },
         {
           "name": "Laser Biathlon",
           "price": "from €7",
           "per": "/pers.",
           "duration": "2 or 4 laps",
-          "features": ["Individual or team", "2 or 4 shooting rounds", "5 targets", "Score correction +€5"],
+          "groupSize": "Individual or teams",
+          "features": ["Individual or team mode", "2 laps (€7) or 4 laps (€12)", "5 targets per round", "Time tracking + results"],
           "recommended": false,
-          "cta": "Book now"
+          "cta": "Book biathlon"
         }
-      ]
+      ],
+      "whatHappens": {
+        "title": "What to expect after booking?",
+        "step1": "You'll receive confirmation by email or phone (usually within 2h)",
+        "step2": "We'll send the exact location map and Waze/Google Maps link",
+        "step3": "Arrive 10 min early — we'll greet you with equipment",
+        "step4": "Briefing, team selection, and — GAME ON!"
+      }
     },
     "gallery": {
-      "sectionTitle": "Gallery"
+      "sectionTitle": "[ARCHIVE]",
+      "title": "Emotions captured in photos"
     },
     "testimonials": {
       "sectionTitle": "Testimonials",
       "list": [
         {
-          "text": "Thank you, we will definitely come back! My teenager and his friends had a great time playing laser tag with Lāzers3. The hosts were fun, helpful and hospitable. We enjoyed many fun moments, laughs and got a proper workout. Thank you!",
+          "text": "Thank you, we will definitely come back! My teenager and his friends had a great time playing laser tag with Lazers3. The hosts were fun, helpful and hospitable. We enjoyed many fun moments, laughs and got a proper workout. Thank you!",
           "author": "Egita",
           "type": "",
           "avatar": "https://placehold.co/100x100/ddd/666?text=E"
@@ -420,14 +708,14 @@
         },
         {
           "q": "How to get to you?",
-          "a": "We are located at \"Andžiņi\", Ances parish, Ventspils municipality — 38 km from Ventspils and 20 km from Dundaga. Precise directions will be sent after booking."
+          "a": "We are located at \"Andzini\", Ances parish, Ventspils municipality — 38 km from Ventspils and 20 km from Dundaga. Precise directions will be sent after booking."
         }
       ]
     },
     "contact": {
       "sectionTitle": "Get in touch",
       "info": {
-        "address": "\"Andžiņi\", Ances parish, Ventspils municipality",
+        "address": "\"Andzini\", Ances parish, Ventspils municipality",
         "phone": "28 985 485",
         "email": "info@lazers3.lv",
         "distance1": "38 km from Ventspils",
@@ -445,6 +733,18 @@
         "error": "Error sending. Please try again or call us."
       }
     },
+    "map": {
+      "sectionTitle": "How to find us?",
+      "navTitle": "Navigation",
+      "openWaze": "Open Waze",
+      "openMaps": "Open Google Maps",
+      "directNav": "Direct navigation",
+      "altNav": "Alternative navigation",
+      "directionsTitle": "Directions",
+      "direction1": "From Ventspils: towards Dundaga, 38 km",
+      "direction2": "From Dundaga: towards Ventspils, 20 km",
+      "direction3": "Look for the \"Andzini\" sign on the road"
+    },
     "footer": {
       "rights": "All rights reserved.",
       "privacy": "Privacy policy"
@@ -453,7 +753,8 @@
 
   "ru": {
     "nav": {
-      "services": "Игры",
+      "whoFor": "Для кого?",
+      "scenarios": "Сценарии",
       "pricing": "Цены",
       "gallery": "Галерея",
       "faq": "FAQ",
@@ -461,45 +762,169 @@
       "book": "Забронировать"
     },
     "hero": {
-      "title": "Безопасный активный отдых в любом возрасте",
-      "subtitle": "Лазертаг и лазерный биатлон в лесу — адреналин, командный дух и незабываемые эмоции",
-      "cta": "Забронировать приключение"
+      "title": "Не просто лазертаг.\nМиссия в лесах Северной Курземе.",
+      "subtitle": "Тимбилдинг, который не забудут",
+      "cta": "Забронировать приключение",
+      "stat1Num": "350m",
+      "stat1": "радиус стрельбы",
+      "stat2Num": "5",
+      "stat2": "моделей оружия",
+      "stat3Num": "38km",
+      "stat3": "от Вентспилса"
     },
-    "services": {
-      "sectionTitle": "Наши услуги",
-      "lazertag": {
-        "title": "Лазертаг",
-        "desc": "Командные бои в лесу с профессиональным оборудованием. Различные игровые сценарии — команда на команду, захват контрольных точек, последний выживший.",
-        "price": "от €10/чел.",
-        "cta": "Подробнее"
-      },
-      "biathlon": {
-        "title": "Лазерный биатлон",
-        "desc": "Сочетание физической нагрузки с точной стрельбой. Беги, стреляй, побеждай! Идеальный соревновательный формат для друзей и коллег.",
-        "price": "от €7/чел.",
-        "cta": "Подробнее"
-      },
-      "corporate": {
-        "title": "Корпоративные мероприятия",
-        "desc": "Тимбилдинг-приключение на природе. Мы организуем всё — вам нужно лишь прийти и наслаждаться. Индивидуальные предложения для больших групп.",
-        "price": "по запросу",
-        "cta": "Связаться"
-      }
+    "whatIsIt": {
+      "sectionTitle": "[ОПИСАНИЕ МИССИИ]",
+      "title": "Это не боль пейнтбола.\nЭто тактический командный бой.",
+      "point1Title": "Не больно",
+      "point1Desc": "Лазерные датчики, не краска. Безопасно для детей от 6 лет и взрослых.",
+      "point2Title": "На природе, не в зале",
+      "point2Desc": "Настоящий лес, настоящая тактика. Прячься за деревьями, атакуй с фланга, побеждай.",
+      "point3Title": "Командная игра",
+      "point3Desc": "Стратегия, коммуникация, адреналин. Это сплачивает любую группу."
+    },
+    "whyUs": {
+      "sectionTitle": "Почему выбирают нас?",
+      "reason1Title": "Настоящий лес, настоящая тактика",
+      "reason1Desc": "В лесах Северной Курземе — не стерильный зал, а настоящая природная среда с деревьями, канавами и холмами.",
+      "reason2Title": "Профессиональное оружие",
+      "reason2Desc": "5 различных моделей оружия — от снайперских до скорострельных. Каждому свой стиль.",
+      "reason3Title": "Для всех возрастов",
+      "reason3Desc": "Специальное оружие Junior для детей от 6 лет. Полная безопасность, инструкторы всегда рядом.",
+      "reason4Title": "Больше, чем игра",
+      "reason4Desc": "Костёр, зона для пикника, гриль — всё в одном месте. Сделайте день особенным."
+    },
+    "scenarios": {
+      "sectionTitle": "[ТИПЫ МИССИЙ]",
+      "title": "Каждый раз новый вызов.\nНикогда не повторяется.",
+      "list": [
+        {
+          "icon": "⚔️",
+          "name": "Командный бой",
+          "desc": "Команда против команды. Побеждает последняя команда с живыми игроками.",
+          "duration": "15-20 мин",
+          "players": "6-20 игроков"
+        },
+        {
+          "icon": "🏴",
+          "name": "Захват контрольных точек",
+          "desc": "Захвати зону, удерживай 60 секунд, получи очки. Стратегия + скорость.",
+          "duration": "20-30 мин",
+          "players": "8-20 игроков"
+        },
+        {
+          "icon": "👑",
+          "name": "Царь горы",
+          "desc": "Один против всех. Кто дольше продержится в центре?",
+          "duration": "10-15 мин",
+          "players": "6-15 игроков"
+        },
+        {
+          "icon": "🎯",
+          "name": "Защита VIP",
+          "desc": "Одна команда защищает VIP, другая — ликвидирует. Напряжённая миссия.",
+          "duration": "15-25 мин",
+          "players": "10-20 игроков"
+        },
+        {
+          "icon": "💣",
+          "name": "Диверсия",
+          "desc": "Установи 'бомбу', защити позицию. Противники — обезвредьте. Тактическая.",
+          "duration": "20-30 мин",
+          "players": "8-16 игроков"
+        },
+        {
+          "icon": "🏃",
+          "name": "Лазерный биатлон",
+          "desc": "Бег + стрельба. Индивидуальное или командное соревнование с учётом времени.",
+          "duration": "15-40 мин",
+          "players": "1-20 участников"
+        }
+      ]
+    },
+    "whoIsItFor": {
+      "sectionTitle": "Для кого это?",
+      "segments": [
+        {
+          "icon": "🎂",
+          "title": "На день рождения",
+          "tagline": "Праздник, который запомнят дольше, чем торт",
+          "desc": "Забудьте о боулингах и кинотеатрах. Здесь ваш ребёнок и его друзья почувствуют себя в настоящем боевике. Захватывающе, безопасно, незабываемо.",
+          "features": [
+            "Специальное оружие Junior для самых маленьких (от 6 лет)",
+            "Инструкторы всегда рядом — полная безопасность",
+            "Возможность добавить зону для пикника и костёр",
+            "Фотографии и видео с игры"
+          ],
+          "cta": "Забронировать день рождения",
+          "image": "https://placehold.co/800x600/2a2a2a/666?text=Den+Rozhdeniya"
+        },
+        {
+          "icon": "🍺",
+          "title": "Мальчишник/Девичник",
+          "tagline": "История, о которой будут рассказывать годами",
+          "desc": "Здесь вы зарядитесь адреналином в лесу, сплотитесь перед большим днём и получите эпичные фото. Никаких неприятных сюрпризов.",
+          "features": [
+            "Частная территория — только ваша группа",
+            "Различные сценарии — от командных боёв до защиты VIP",
+            "Можно совместить с костром и грилем",
+            "Поблизости можно организовать ночёвку"
+          ],
+          "cta": "Связаться по поводу вечеринки",
+          "image": "https://placehold.co/800x600/2a2a2a/666?text=Malchishnik"
+        },
+        {
+          "icon": "🎒",
+          "title": "Для школьных групп",
+          "tagline": "Экскурсия, от которой не скучно",
+          "desc": "Командообразование, физическая активность и эмоции — всё в одном месте. Дети говорят об этом ещё месяцами.",
+          "features": [
+            "Групповые цены (от €7/чел.)",
+            "Адаптированные сценарии в зависимости от возраста",
+            "Обучающий инструктаж о командной работе",
+            "Учителя играют бесплатно (1 на 10 детей)"
+          ],
+          "cta": "Записать школьную группу",
+          "image": "https://placehold.co/800x600/2a2a2a/666?text=Shkolnaya+Gruppa"
+        },
+        {
+          "icon": "💼",
+          "title": "Для компаний",
+          "tagline": "Коллеги, которые сражаются вместе, работают лучше",
+          "desc": "Забудьте о пластиковых конструкторах в конференц-залах. Здесь ваша команда испытает настоящее давление, коммуникацию и сплочение.",
+          "features": [
+            "Индивидуальные сценарии для вашей команды",
+            "Ротация команд — все играют со всеми",
+            "Анализ результатов — кто лидер, кто тактический мыслитель",
+            "Полный сервис: костёр, зона для пикника, гриль",
+            "Корпоративные предложения для групп 20+ человек"
+          ],
+          "cta": "Получить предложение",
+          "image": "https://placehold.co/800x600/2a2a2a/666?text=Team+Building"
+        },
+        {
+          "icon": "👨‍👩‍👧‍👦",
+          "title": "Для семей",
+          "tagline": "Совместное приключение вместо экранов",
+          "desc": "Выходные, когда все — от 6 до 60 лет — в одной команде. Все вместе в лесу, все с оружием, все с эмоциями.",
+          "features": [
+            "Оружие для всех возрастов и ростов",
+            "Семейные сценарии — родители + дети в одной команде",
+            "Зона для пикника — после игры можно поесть вместе",
+            "Инструкторы контролируют весь процесс"
+          ],
+          "cta": "Запланировать семейный день",
+          "image": "https://placehold.co/800x600/2a2a2a/666?text=Semejnyj+Den"
+        }
+      ]
     },
     "howItWorks": {
-      "sectionTitle": "Как это работает",
-      "step1": {
-        "title": "Забронируйте",
-        "desc": "Заполните форму или позвоните нам. Выберите дату и время."
-      },
-      "step2": {
-        "title": "Приезжайте",
-        "desc": "Мы обеспечиваем всё оборудование и инструктаж. Просто приходите в удобной одежде."
-      },
-      "step3": {
-        "title": "Играйте и побеждайте!",
-        "desc": "Испытайте адреналин в лесу! После игры — совместное обсуждение результатов."
-      }
+      "sectionTitle": "Как проходит игра?",
+      "step1": { "title": "Забронируйте игру", "desc": "Позвоните или заполните форму. Выберите дату и размер группы. Мы подтвердим." },
+      "step2": { "title": "Приезжайте на полигон", "desc": "38 км от Вентспилса. Отправим карту. Приезжайте за 10 мин — в удобной обуви!" },
+      "step3": { "title": "Инструктаж", "desc": "5-10 мин введение: как работает оружие, как перезарядить, как понять, что в вас попали." },
+      "step4": { "title": "Разделение на команды", "desc": "Делимся на команды, выбираем оружие. Снайпер или быстрый MP-9? Готовы!" },
+      "step5": { "title": "Миссии!", "desc": "Командный бой, контрольные точки, защита VIP — 1-2ч чистого адреналина!" },
+      "step6": { "title": "Результаты и эмоции", "desc": "Обсуждаем, кто был MVP. Общее фото. Эмоции, которые остаются." }
     },
     "weapons": {
       "sectionTitle": "Наше оружие",
@@ -568,14 +993,17 @@
     },
     "pricing": {
       "sectionTitle": "Цены",
-      "note": "* С 3-го часа — только €8/чел.",
+      "subtitle": "Без скрытых платежей. Платите за то, что получаете — плюс эмоции бесплатно.",
+      "recommendedLabel": "Самый популярный",
+      "note": "* С 3-го часа — только €8/чел. Группам 15+ — индивидуальные предложения.",
       "packages": [
         {
           "name": "Разминка",
           "price": "€10",
           "per": "/чел.",
           "duration": "1 час",
-          "features": ["Группа 6-10 человек", "Оборудование включено", "Инструктаж включён", "1 игровой сценарий"],
+          "groupSize": "Оптимально: 6-10 человек",
+          "features": ["1 час игрового времени", "Всё оборудование включено", "Полный инструктаж", "1-2 игровых сценария"],
           "recommended": false,
           "cta": "Забронировать"
         },
@@ -584,29 +1012,39 @@
           "price": "€18",
           "per": "/чел.",
           "duration": "2 часа",
-          "features": ["Группа 6-10 человек", "Оборудование включено", "Инструктаж включён", "Несколько сценариев", "Лучшее соотношение цена/время"],
+          "groupSize": "Оптимально: 8-16 человек",
+          "features": ["2 часа игрового времени", "Всё оборудование включено", "Полный инструктаж", "3-5 различных сценариев", "Фото с игры"],
           "recommended": true,
-          "cta": "Забронировать"
+          "cta": "Забронировать (самый популярный!)"
         },
         {
           "name": "Лазерный биатлон",
           "price": "от €7",
           "per": "/чел.",
           "duration": "2 или 4 круга",
-          "features": ["Индивидуально или командой", "2 или 4 стрелковых раунда", "5 мишеней", "Коррекция результата +€5"],
+          "groupSize": "Индивидуально или командами",
+          "features": ["Индивидуальный или командный режим", "2 круга (€7) или 4 круга (€12)", "5 мишеней в каждом раунде", "Учёт времени + результаты"],
           "recommended": false,
-          "cta": "Забронировать"
+          "cta": "Забронировать биатлон"
         }
-      ]
+      ],
+      "whatHappens": {
+        "title": "Что ожидать после бронирования?",
+        "step1": "Получите подтверждение на e-mail или по телефону (обычно в течение 2ч)",
+        "step2": "Отправим точную карту расположения и ссылку Waze/Google Maps",
+        "step3": "Приезжайте за 10 мин — мы встретим вас с оборудованием",
+        "step4": "Инструктаж, разделение на команды, и — ИГРА!"
+      }
     },
     "gallery": {
-      "sectionTitle": "Галерея"
+      "sectionTitle": "[АРХИВ]",
+      "title": "Эмоции, которые остаются на фото"
     },
     "testimonials": {
       "sectionTitle": "Отзывы",
       "list": [
         {
-          "text": "Спасибо, обязательно вернёмся! Мой подросток и его друзья отлично провели время, играя в лазертаг с Lāzers3. Хозяева были весёлыми, отзывчивыми и гостеприимными. Мы получили массу весёлых моментов, смеха и как следует размялись. Спасибо!",
+          "text": "Спасибо, обязательно вернёмся! Мой подросток и его друзья отлично провели время, играя в лазертаг с Lazers3. Хозяева были весёлыми, отзывчивыми и гостеприимными. Мы получили массу весёлых моментов, смеха и как следует размялись. Спасибо!",
           "author": "Эгита",
           "type": "",
           "avatar": "https://placehold.co/100x100/ddd/666?text=E"
@@ -670,6 +1108,18 @@
         "success": "Спасибо! Мы свяжемся с вами в ближайшее время.",
         "error": "Ошибка отправки. Пожалуйста, попробуйте ещё раз или позвоните нам."
       }
+    },
+    "map": {
+      "sectionTitle": "Как нас найти?",
+      "navTitle": "Навигация",
+      "openWaze": "Открыть Waze",
+      "openMaps": "Открыть Google Maps",
+      "directNav": "Прямая навигация",
+      "altNav": "Альтернативная навигация",
+      "directionsTitle": "Как добраться",
+      "direction1": "Из Вентспилса: в направлении Дундаги, 38 км",
+      "direction2": "Из Дундаги: в направлении Вентспилса, 20 км",
+      "direction3": "На дороге увидите указатель \"Андзини\""
     },
     "footer": {
       "rights": "Все права защищены.",

@@ -28,6 +28,40 @@ body {
   -webkit-backdrop-filter: blur(8px);
 }
 
+/* ============ TACTICAL OVERLAYS ============ */
+.tactical-grid {
+  background-image:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.scan-lines {
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(255, 255, 255, 0.015) 2px,
+    rgba(255, 255, 255, 0.015) 4px
+  );
+}
+
+/* ============ MISSION-STYLE HEADER ============ */
+.mission-header {
+  font-family: 'Courier New', 'Consolas', monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 0.75rem;
+  color: var(--primary);
+}
+
+/* ============ STAT MONO ============ */
+.stat-mono {
+  font-family: 'Courier New', 'Consolas', monospace;
+  font-weight: bold;
+  color: var(--primary);
+}
+
 /* ============ WEAPON CARD ============ */
 .weapon-card {
   min-width: 100%;
@@ -80,12 +114,12 @@ body {
 
 /* ============ PRICING CARD ============ */
 .pricing-card {
-  transition: transform 0.2s;
+  transition: all 0.3s;
   position: relative;
 }
 
 .pricing-card.recommended {
-  border: 2px solid var(--accent);
+  border: 2px solid var(--primary);
 }
 
 .pricing-card.recommended::before {
@@ -96,7 +130,7 @@ body {
   transform: translateX(-50%);
   width: 50%;
   height: 3px;
-  background: var(--accent);
+  background: linear-gradient(90deg, var(--primary), var(--accent));
 }
 
 /* ============ FAQ ============ */
@@ -209,6 +243,29 @@ body {
 .fade-up.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* ============ GALLERY ============ */
+.gallery-item img {
+  filter: grayscale(40%);
+  transition: all 0.5s ease;
+}
+
+.gallery-item:hover img {
+  filter: grayscale(0%);
+}
+
+/* ============ MOBILE STICKY CTA ============ */
+#mobileCTA {
+  transition: transform 0.3s ease;
+}
+
+#mobileCTA.hidden-cta {
+  transform: translateY(100%);
+}
+
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 1rem);
 }
 
 /* ============ SELECTION ============ */

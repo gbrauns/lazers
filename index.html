@@ -3,8 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lāzers 3 — Lāzertags mežā</title>
-  <meta name="description" content="Lāzertags un lāzerbiatlons mežā, Ventspils novadā. Droša aktīvā atpūta jebkurā vecumā.">
+  <title>Lāzers 3 — Lāzertags mežā | Ventspils novads</title>
+  <meta name="description" content="Lāzertags un lāzerbiatlons Ziemeļkurzemes mežos. Dzimšanas dienas, komandu saliedēšana, draugu pasākumi. Droša aktīvā atpūta no 6 gadiem. Ventspils novads.">
+  <meta name="keywords" content="lāzertags, lazertags, laser tag, lāzerbiatlons, Ventspils, Kurzeme, dzimšanas diena, team building, aktīvā atpūta">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Lāzers 3 — Lāzertags mežā">
+  <meta property="og:description" content="Taktiskā komandu cīņa Ziemeļkurzemes mežos. Adrenalīns, komandas gars un emocijas visiem vecumiem.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lazers3.lv">
+  <meta property="og:image" content="https://placehold.co/1200x630/1a1a1a/e5a40f?text=Lāzers+3">
+  <meta property="og:locale" content="lv_LV">
+
+  <!-- Geo -->
+  <meta name="geo.region" content="LV-VEN">
+  <meta name="geo.placename" content="Ances pagasts, Ventspils novads">
+  <meta name="geo.position" content="57.45;21.85">
+
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -40,11 +55,11 @@
         </a>
 
         <nav class="hidden md:flex items-center gap-6 lg:gap-8">
-          <a href="#services" data-i18n="nav.services" class="text-white/80 hover:text-white text-sm font-medium transition-colors">Spēles</a>
+          <a href="#whoIsItFor" data-i18n="nav.whoFor" class="text-white/80 hover:text-white text-sm font-medium transition-colors">Kam?</a>
+          <a href="#scenarios" data-i18n="nav.scenarios" class="text-white/80 hover:text-white text-sm font-medium transition-colors">Scenāriji</a>
           <a href="#pricing" data-i18n="nav.pricing" class="text-white/80 hover:text-white text-sm font-medium transition-colors">Cenas</a>
           <a href="#gallery" data-i18n="nav.gallery" class="text-white/80 hover:text-white text-sm font-medium transition-colors">Galerija</a>
           <a href="#faq" data-i18n="nav.faq" class="text-white/80 hover:text-white text-sm font-medium transition-colors">FAQ</a>
-          <a href="#contact" data-i18n="nav.contact" class="text-white/80 hover:text-white text-sm font-medium transition-colors">Kontakti</a>
           <div class="flex items-center gap-1 ml-2">
             <button onclick="setLang('lv')" class="lang-btn px-2 py-1 text-xs font-bold rounded text-white/60 hover:text-white transition-colors" data-lang="lv">LV</button>
             <button onclick="setLang('en')" class="lang-btn px-2 py-1 text-xs font-bold rounded text-white/60 hover:text-white transition-colors" data-lang="en">EN</button>
@@ -62,7 +77,8 @@
 
     <div id="mobileMenu" class="md:hidden hidden bg-black/95 backdrop-blur-lg border-t border-white/10">
       <div class="px-4 py-4 space-y-2">
-        <a href="#services" data-i18n="nav.services" class="mobile-nav-link block px-4 py-3 text-white/80 hover:text-white rounded-lg transition-colors">Spēles</a>
+        <a href="#whoIsItFor" data-i18n="nav.whoFor" class="mobile-nav-link block px-4 py-3 text-white/80 hover:text-white rounded-lg transition-colors">Kam?</a>
+        <a href="#scenarios" data-i18n="nav.scenarios" class="mobile-nav-link block px-4 py-3 text-white/80 hover:text-white rounded-lg transition-colors">Scenāriji</a>
         <a href="#pricing" data-i18n="nav.pricing" class="mobile-nav-link block px-4 py-3 text-white/80 hover:text-white rounded-lg transition-colors">Cenas</a>
         <a href="#gallery" data-i18n="nav.gallery" class="mobile-nav-link block px-4 py-3 text-white/80 hover:text-white rounded-lg transition-colors">Galerija</a>
         <a href="#faq" data-i18n="nav.faq" class="mobile-nav-link block px-4 py-3 text-white/80 hover:text-white rounded-lg transition-colors">FAQ</a>
@@ -82,102 +98,185 @@
     <div class="absolute inset-0">
       <img src="https://placehold.co/1920x1080/1a1a1a/333333?text=Hero+Background" alt="" class="w-full h-full object-cover">
     </div>
-    <div class="absolute inset-0 bg-black/60"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80"></div>
+    <div class="absolute inset-0 scan-lines pointer-events-none"></div>
 
-    <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
+    <div class="relative z-10 text-center px-4 max-w-5xl mx-auto">
       <img src="assets/logo/logo2-retinaw.png" alt="Lāzers 3" class="h-20 md:h-28 w-auto mx-auto mb-8">
-      <h1 data-i18n="hero.title" class="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white leading-tight mb-6">
-        Droša aktīvā atpūta jebkurā vecumā
+      <h1 data-i18n="hero.title" class="font-heading font-black text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white leading-tight mb-6">
+        Nevis vienkārši lāzertags. Misija Ziemeļkurzemes mežos.
       </h1>
       <p data-i18n="hero.subtitle" class="text-lg md:text-xl text-white/70 mb-10 max-w-2xl mx-auto leading-relaxed">
-        Lāzertags un lāzerbiatlons mežā — adrenalīns, komandas gars un neaizmirstamas emocijas
+        Komandas saliedēšana, ko neaizmirsīs vēl ilgi
       </p>
       <a href="#contact" data-i18n="hero.cta" class="inline-block bg-primary hover:bg-primary-dark text-white font-bold px-8 py-4 rounded-full text-lg transition-colors">
         Rezervē piedzīvojumu
       </a>
-      <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <svg class="w-6 h-6 text-white/40" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+
+      <!-- Mission Stats -->
+      <div class="flex justify-center gap-8 md:gap-16 mt-12">
+        <div class="text-center">
+          <div data-i18n="hero.stat1Num" class="stat-mono text-2xl md:text-3xl">350m</div>
+          <div data-i18n="hero.stat1" class="mission-header mt-1">šaušanas rādiuss</div>
+        </div>
+        <div class="text-center">
+          <div data-i18n="hero.stat2Num" class="stat-mono text-2xl md:text-3xl">5</div>
+          <div data-i18n="hero.stat2" class="mission-header mt-1">ieroču modeļi</div>
+        </div>
+        <div class="text-center">
+          <div data-i18n="hero.stat3Num" class="stat-mono text-2xl md:text-3xl">38km</div>
+          <div data-i18n="hero.stat3" class="mission-header mt-1">no Ventspils</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      <svg class="w-6 h-6 text-white/40" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+    </div>
+  </section>
+
+  <!-- ============ KAS TAS IR? ============ -->
+  <section id="whatIsIt" class="py-16 md:py-24 bg-dark text-white relative">
+    <div class="absolute inset-0 tactical-grid pointer-events-none"></div>
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <p data-i18n="whatIsIt.sectionTitle" class="mission-header text-center mb-4">[MISIJAS APRAKSTS]</p>
+      <h2 data-i18n="whatIsIt.title" class="font-heading font-bold text-3xl md:text-4xl text-center mb-12 text-white leading-tight">
+        Tā nav paintbola sāpe. Tā ir taktiska komandu cīņa.
+      </h2>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white/5 border border-white/10 p-6 md:p-8">
+          <h3 data-i18n="whatIsIt.point1Title" class="font-heading font-bold text-xl mb-3 text-primary">Nav sāpīgi</h3>
+          <p data-i18n="whatIsIt.point1Desc" class="text-white/70 leading-relaxed">Lāzera sensors, ne krāsas lode. Droši bērniem no 6 gadiem un pieaugušajiem.</p>
+        </div>
+        <div class="bg-white/5 border border-white/10 p-6 md:p-8">
+          <h3 data-i18n="whatIsIt.point2Title" class="font-heading font-bold text-xl mb-3 text-primary">Dabā, ne hallē</h3>
+          <p data-i18n="whatIsIt.point2Desc" class="text-white/70 leading-relaxed">Īsts mežs, īsta taktika. Paslēpies aiz kokiem, uzbrūc no sāniem, uzvarē.</p>
+        </div>
+        <div class="bg-white/5 border border-white/10 p-6 md:p-8">
+          <h3 data-i18n="whatIsIt.point3Title" class="font-heading font-bold text-xl mb-3 text-primary">Komandas spēle</h3>
+          <p data-i18n="whatIsIt.point3Desc" class="text-white/70 leading-relaxed">Stratēģija, komunikācija, adrenalīns. Tas saliedē jebkuru grupu.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ============ SERVICES ============ -->
-  <section id="services" class="py-16 md:py-24 bg-beige">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 data-i18n="services.sectionTitle" class="font-heading font-bold text-3xl md:text-4xl text-center mb-4 text-dark">Mūsu pakalpojumi</h2>
+  <!-- ============ KĀPĒC PIE MUMS? ============ -->
+  <section id="whyUs" class="py-16 md:py-24 bg-beige">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 data-i18n="whyUs.sectionTitle" class="font-heading font-bold text-3xl md:text-4xl text-center mb-4 text-dark">Kāpēc izvēlēties mūs?</h2>
       <div class="w-16 h-1 bg-primary mx-auto mb-12 rounded-full"></div>
 
-      <div class="grid md:grid-cols-3 gap-6 lg:gap-8">
-        <div class="bg-white p-8">
-          <div class="w-14 h-14 bg-accent/10 rounded-full flex items-center justify-center mb-6">
-            <svg class="w-7 h-7 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
-          </div>
-          <h3 data-i18n="services.lazertag.title" class="font-heading font-bold text-xl mb-3 text-dark">Lāzertags</h3>
-          <p data-i18n="services.lazertag.desc" class="text-gray-600 mb-6 leading-relaxed">Komandu cīņas mežā ar profesionālu ekipējumu. Dažādi spēļu scenāriji — komanda pret komandu, kontrolpunktu ieņemšana, pēdējais izdzīvojušais.</p>
-          <div class="flex items-center justify-between">
-            <span data-i18n="services.lazertag.price" class="text-accent font-bold text-lg">no €10/pers.</span>
-            <a href="#pricing" data-i18n="services.lazertag.cta" class="text-primary hover:text-primary-dark font-medium text-sm transition-colors">Uzzināt vairāk &rarr;</a>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 md:p-8 border-l-4 border-accent">
+          <div class="flex items-start gap-4">
+            <span class="text-3xl">🌲</span>
+            <div>
+              <h3 data-i18n="whyUs.reason1Title" class="font-heading font-bold text-lg mb-2 text-dark">Īsts mežs, īsta taktika</h3>
+              <p data-i18n="whyUs.reason1Desc" class="text-gray-600 leading-relaxed">Ziemeļkurzemes mežos — nav sterila halle, ir īsta dabas vide ar kokiem, grāvjiem un pakalniņiem.</p>
+            </div>
           </div>
         </div>
-
-        <div class="bg-white p-8">
-          <div class="w-14 h-14 bg-accent/10 rounded-full flex items-center justify-center mb-6">
-            <svg class="w-7 h-7 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-          </div>
-          <h3 data-i18n="services.biathlon.title" class="font-heading font-bold text-xl mb-3 text-dark">Lāzerbiatlons</h3>
-          <p data-i18n="services.biathlon.desc" class="text-gray-600 mb-6 leading-relaxed">Apvieno fizisko slodzi ar precīzu šaušanu. Skrien, šauj, uzvarē! Ideāls sacensību formāts draugiem un kolēģiem.</p>
-          <div class="flex items-center justify-between">
-            <span data-i18n="services.biathlon.price" class="text-accent font-bold text-lg">no €7/pers.</span>
-            <a href="#pricing" data-i18n="services.biathlon.cta" class="text-primary hover:text-primary-dark font-medium text-sm transition-colors">Uzzināt vairāk &rarr;</a>
+        <div class="bg-white p-6 md:p-8 border-l-4 border-accent">
+          <div class="flex items-start gap-4">
+            <span class="text-3xl">🔫</span>
+            <div>
+              <h3 data-i18n="whyUs.reason2Title" class="font-heading font-bold text-lg mb-2 text-dark">Profesionāli ieroči</h3>
+              <p data-i18n="whyUs.reason2Desc" class="text-gray-600 leading-relaxed">5 dažādi ieroču modeļi — no snaiperiem līdz ātrstrēlniekiem. Katram savu stilu.</p>
+            </div>
           </div>
         </div>
-
-        <div class="bg-white p-8">
-          <div class="w-14 h-14 bg-accent/10 rounded-full flex items-center justify-center mb-6">
-            <svg class="w-7 h-7 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+        <div class="bg-white p-6 md:p-8 border-l-4 border-accent">
+          <div class="flex items-start gap-4">
+            <span class="text-3xl">👨‍👩‍👧‍👦</span>
+            <div>
+              <h3 data-i18n="whyUs.reason3Title" class="font-heading font-bold text-lg mb-2 text-dark">Visiem vecumiem</h3>
+              <p data-i18n="whyUs.reason3Desc" class="text-gray-600 leading-relaxed">Speciāli Junior ieroči bērniem no 6 gadiem. Pilna drošība, instruktori vienmēr klāt.</p>
+            </div>
           </div>
-          <h3 data-i18n="services.corporate.title" class="font-heading font-bold text-xl mb-3 text-dark">Korporatīvie pasākumi</h3>
-          <p data-i18n="services.corporate.desc" class="text-gray-600 mb-6 leading-relaxed">Team-building piedzīvojums dabā. Mēs organizējam visu — jums tikai jāierodas un jāizbauda. Individuāli piedāvājumi lielām grupām.</p>
-          <div class="flex items-center justify-between">
-            <span data-i18n="services.corporate.price" class="text-accent font-bold text-lg">pēc pieprasījuma</span>
-            <a href="#contact" data-i18n="services.corporate.cta" class="text-primary hover:text-primary-dark font-medium text-sm transition-colors">Sazināties &rarr;</a>
+        </div>
+        <div class="bg-white p-6 md:p-8 border-l-4 border-accent">
+          <div class="flex items-start gap-4">
+            <span class="text-3xl">🎯</span>
+            <div>
+              <h3 data-i18n="whyUs.reason4Title" class="font-heading font-bold text-lg mb-2 text-dark">Vairāk nekā spēle</h3>
+              <p data-i18n="whyUs.reason4Desc" class="text-gray-600 leading-relaxed">Ugunskurs, piknika zona, grils — viss vienuviet. Padariet dienu īpašu.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============ HOW IT WORKS ============ -->
-  <section id="howItWorks" class="py-16 md:py-24 bg-white relative">
-    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+  <!-- ============ SPĒĻU SCENĀRIJI ============ -->
+  <section id="scenarios" class="py-16 md:py-24 bg-dark text-white relative">
+    <div class="absolute inset-0 tactical-grid pointer-events-none"></div>
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <p data-i18n="scenarios.sectionTitle" class="mission-header text-center mb-4">[MISIJAS VEIDI]</p>
+      <h2 data-i18n="scenarios.title" class="font-heading font-bold text-3xl md:text-4xl text-center mb-12 text-white leading-tight">
+        Nav viena un tā paša. Katru reizi jauns izaicinājums.
+      </h2>
+      <div id="scenarioCards" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+    </div>
+  </section>
+
+  <!-- ============ KAM PIEMĒROTS? ============ -->
+  <section id="whoIsItFor" class="py-16 md:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 data-i18n="whoIsItFor.sectionTitle" class="font-heading font-bold text-3xl md:text-4xl text-center mb-4 text-dark">Kam tas ir?</h2>
+      <div class="w-16 h-1 bg-primary mx-auto mb-12 rounded-full"></div>
+      <div id="audienceSegments" class="space-y-12 md:space-y-16"></div>
+    </div>
+  </section>
+
+  <!-- ============ KĀ TAS STRĀDĀ? ============ -->
+  <section id="howItWorks" class="py-16 md:py-24 bg-beige">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 data-i18n="howItWorks.sectionTitle" class="font-heading font-bold text-3xl md:text-4xl text-center mb-4 text-dark">Kā tas strādā?</h2>
       <div class="w-16 h-1 bg-primary mx-auto mb-12 rounded-full"></div>
 
-      <div class="grid md:grid-cols-3 gap-8 md:gap-12 relative">
-        <div class="hidden md:block absolute top-12 left-[20%] right-[20%] h-px bg-primary/20"></div>
-
-        <div class="text-center relative">
-          <div class="w-24 h-24 bg-primary text-white rounded-full flex items-center justify-center mx-auto mb-6 relative z-10">
-            <span class="font-heading font-black text-3xl">1</span>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+        <div class="text-center">
+          <div class="w-16 h-16 bg-gradient-to-br from-primary to-accent text-white rounded-2xl flex items-center justify-center mx-auto mb-4">
+            <span class="font-mono font-bold text-xl">01</span>
           </div>
-          <h3 data-i18n="howItWorks.step1.title" class="font-heading font-bold text-xl mb-3 text-dark">Rezervē</h3>
-          <p data-i18n="howItWorks.step1.desc" class="text-gray-600 leading-relaxed">Aizpildi formu vai piezvani mums. Izvēlies datumu un laiku.</p>
+          <h3 data-i18n="howItWorks.step1.title" class="font-heading font-bold text-lg mb-2 text-dark">Rezervē spēli</h3>
+          <p data-i18n="howItWorks.step1.desc" class="text-gray-600 leading-relaxed text-sm">Piezvani vai aizpildi formu. Izvēlies datumu un grupas lielumu. Mēs apstiprinām.</p>
         </div>
-
-        <div class="text-center relative">
-          <div class="w-24 h-24 bg-primary text-white rounded-full flex items-center justify-center mx-auto mb-6 relative z-10">
-            <span class="font-heading font-black text-3xl">2</span>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-gradient-to-br from-primary to-accent text-white rounded-2xl flex items-center justify-center mx-auto mb-4">
+            <span class="font-mono font-bold text-xl">02</span>
           </div>
-          <h3 data-i18n="howItWorks.step2.title" class="font-heading font-bold text-xl mb-3 text-dark">Ieradies</h3>
-          <p data-i18n="howItWorks.step2.desc" class="text-gray-600 leading-relaxed">Mēs nodrošinām ekipējumu un instruktāžu. Tev tikai jāierodas ērtā apģērbā.</p>
+          <h3 data-i18n="howItWorks.step2.title" class="font-heading font-bold text-lg mb-2 text-dark">Ierodies</h3>
+          <p data-i18n="howItWorks.step2.desc" class="text-gray-600 leading-relaxed text-sm">Ieradies ērtā apģērbā. Mēs nodrošinām visu pārējo.</p>
         </div>
-
-        <div class="text-center relative">
-          <div class="w-24 h-24 bg-primary text-white rounded-full flex items-center justify-center mx-auto mb-6 relative z-10">
-            <span class="font-heading font-black text-3xl">3</span>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-gradient-to-br from-primary to-accent text-white rounded-2xl flex items-center justify-center mx-auto mb-4">
+            <span class="font-mono font-bold text-xl">03</span>
           </div>
-          <h3 data-i18n="howItWorks.step3.title" class="font-heading font-bold text-xl mb-3 text-dark">Spēlē un uzvarē!</h3>
-          <p data-i18n="howItWorks.step3.desc" class="text-gray-600 leading-relaxed">Izbaudiet adrenalīnu mežā! Pēc spēles — kopīga rezultātu apspriešana.</p>
+          <h3 data-i18n="howItWorks.step3.title" class="font-heading font-bold text-lg mb-2 text-dark">Instruktāža</h3>
+          <p data-i18n="howItWorks.step3.desc" class="text-gray-600 leading-relaxed text-sm">Drošības un spēles noteikumu instruktāža. Ieroču izmēģināšana.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-gradient-to-br from-primary to-accent text-white rounded-2xl flex items-center justify-center mx-auto mb-4">
+            <span class="font-mono font-bold text-xl">04</span>
+          </div>
+          <h3 data-i18n="howItWorks.step4.title" class="font-heading font-bold text-lg mb-2 text-dark">Komandas</h3>
+          <p data-i18n="howItWorks.step4.desc" class="text-gray-600 leading-relaxed text-sm">Sadalāmies komandās, izvēlamies ieročus un gatavojamies misijām.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-gradient-to-br from-primary to-accent text-white rounded-2xl flex items-center justify-center mx-auto mb-4">
+            <span class="font-mono font-bold text-xl">05</span>
+          </div>
+          <h3 data-i18n="howItWorks.step5.title" class="font-heading font-bold text-lg mb-2 text-dark">Misijas!</h3>
+          <p data-i18n="howItWorks.step5.desc" class="text-gray-600 leading-relaxed text-sm">Dažādi spēļu scenāriji ar pārtraukumiem. Adrenalīns un emocijas.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-gradient-to-br from-primary to-accent text-white rounded-2xl flex items-center justify-center mx-auto mb-4">
+            <span class="font-mono font-bold text-xl">06</span>
+          </div>
+          <h3 data-i18n="howItWorks.step6.title" class="font-heading font-bold text-lg mb-2 text-dark">Rezultāti un emocijas</h3>
+          <p data-i18n="howItWorks.step6.desc" class="text-gray-600 leading-relaxed text-sm">Apspriežam, kas bija MVP. Foto kopā. Emocijas, kas paliek.</p>
         </div>
       </div>
     </div>
@@ -204,21 +303,11 @@
     </div>
   </section>
 
-  <!-- ============ PRICING ============ -->
-  <section id="pricing" class="py-16 md:py-24 bg-beige">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 data-i18n="pricing.sectionTitle" class="font-heading font-bold text-3xl md:text-4xl text-center mb-4 text-dark">Cenas</h2>
-      <div class="w-16 h-1 bg-primary mx-auto mb-12 rounded-full"></div>
-      <div id="pricingCards" class="grid md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto"></div>
-      <p data-i18n="pricing.note" class="text-center text-gray-500 mt-8 text-sm">* No 3. stundas — tikai €8/pers.</p>
-    </div>
-  </section>
-
   <!-- ============ GALLERY ============ -->
-  <section id="gallery" class="py-16 md:py-24 bg-white">
+  <section id="gallery" class="py-16 md:py-24 bg-dark text-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 data-i18n="gallery.sectionTitle" class="font-heading font-bold text-3xl md:text-4xl text-center mb-4 text-dark">Galerija</h2>
-      <div class="w-16 h-1 bg-primary mx-auto mb-12 rounded-full"></div>
+      <p data-i18n="gallery.sectionTitle" class="mission-header text-center mb-4">[ARHĪVS]</p>
+      <h2 data-i18n="gallery.title" class="font-heading font-bold text-3xl md:text-4xl text-center mb-12 text-white">Emocijas, kas paliek fotogrāfijās</h2>
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4" id="galleryGrid">
         <div class="overflow-hidden cursor-pointer gallery-item"><img src="https://placehold.co/400x400/2a2a2a/666?text=Photo+1" alt="Photo 1" class="w-full aspect-square object-cover hover:scale-105 transition-transform duration-300"></div>
         <div class="overflow-hidden cursor-pointer gallery-item row-span-2"><img src="https://placehold.co/400x800/2a2a2a/666?text=Photo+2" alt="Photo 2" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"></div>
@@ -243,8 +332,42 @@
     </div>
   </section>
 
+  <!-- ============ PRICING ============ -->
+  <section id="pricing" class="py-16 md:py-24 bg-beige">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 data-i18n="pricing.sectionTitle" class="font-heading font-bold text-3xl md:text-4xl text-center mb-3 text-dark">Cenas</h2>
+      <p data-i18n="pricing.subtitle" class="text-center text-gray-500 mb-2">Bez slēptām izmaksām. Ko maksā, to arī saņem.</p>
+      <div class="w-16 h-1 bg-primary mx-auto mb-12 rounded-full"></div>
+      <div id="pricingCards" class="grid md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto"></div>
+      <p data-i18n="pricing.note" class="text-center text-gray-500 mt-8 text-sm">* No 3. stundas — tikai €8/pers.</p>
+
+      <!-- What happens after booking -->
+      <div class="mt-16 max-w-3xl mx-auto">
+        <h3 data-i18n="pricing.whatHappens.title" class="font-heading font-bold text-xl text-center mb-8 text-dark">Ko sagaidīt pēc rezervācijas?</h3>
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div class="flex items-start gap-3 bg-white p-4 rounded-lg">
+            <span class="font-mono font-bold text-primary text-lg">01</span>
+            <p data-i18n="pricing.whatHappens.step1" class="text-gray-600 text-sm">Saņemsi apstiprinājumu uz e-pastu vai telefonu (parasti 2h laikā)</p>
+          </div>
+          <div class="flex items-start gap-3 bg-white p-4 rounded-lg">
+            <span class="font-mono font-bold text-primary text-lg">02</span>
+            <p data-i18n="pricing.whatHappens.step2" class="text-gray-600 text-sm">Nosūtīsim precīzu atrašanās vietas karti un Waze/Google Maps linku</p>
+          </div>
+          <div class="flex items-start gap-3 bg-white p-4 rounded-lg">
+            <span class="font-mono font-bold text-primary text-lg">03</span>
+            <p data-i18n="pricing.whatHappens.step3" class="text-gray-600 text-sm">Ieradies 10 min pirms laika — mēs sagaidīsim ar ekipējumu</p>
+          </div>
+          <div class="flex items-start gap-3 bg-white p-4 rounded-lg">
+            <span class="font-mono font-bold text-primary text-lg">04</span>
+            <p data-i18n="pricing.whatHappens.step4" class="text-gray-600 text-sm">Instruktāža, komandu sadale, un — SPĒLE!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ FAQ ============ -->
-  <section id="faq" class="py-16 md:py-24 bg-beige">
+  <section id="faq" class="py-16 md:py-24 bg-white">
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 data-i18n="faq.sectionTitle" class="font-heading font-bold text-3xl md:text-4xl text-center mb-4 text-dark">Biežāk uzdotie jautājumi</h2>
       <div class="w-16 h-1 bg-primary mx-auto mb-12 rounded-full"></div>
@@ -253,13 +376,13 @@
   </section>
 
   <!-- ============ CONTACT ============ -->
-  <section id="contact" class="py-16 md:py-24 bg-white">
+  <section id="contact" class="py-16 md:py-24 bg-beige">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <h2 data-i18n="contact.sectionTitle" class="font-heading font-bold text-3xl md:text-4xl text-center mb-4 text-dark">Sazinies ar mums</h2>
       <div class="w-16 h-1 bg-primary mx-auto mb-12 rounded-full"></div>
 
       <div class="grid lg:grid-cols-2 gap-8 lg:gap-12">
-        <div class="bg-beige p-6 md:p-8">
+        <div class="bg-white p-6 md:p-8">
           <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-4">
             <div class="grid sm:grid-cols-2 gap-4">
               <div>
@@ -297,7 +420,7 @@
         </div>
 
         <div class="space-y-6">
-          <div class="bg-beige p-6 md:p-8">
+          <div class="bg-white p-6 md:p-8">
             <div class="space-y-5">
               <div class="flex items-start gap-4">
                 <div class="w-10 h-10 bg-accent/15 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -333,6 +456,28 @@
     </div>
   </section>
 
+  <!-- ============ MAP + WAZE ============ -->
+  <section id="map" class="py-12 md:py-16 bg-dark text-white">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p data-i18n="map.sectionTitle" class="mission-header mb-6">Kā mūs atrast?</p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="https://waze.com/ul?ll=57.45,21.85&navigate=yes" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent-dark text-white font-semibold px-6 py-3 rounded-full transition-colors">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M20.54 6.63c.41.93.62 1.96.62 3.03 0 .6-.07 1.19-.21 1.76-.14.58-.36 1.13-.66 1.64-.86 1.53-2.26 2.63-3.91 3.12-.27.08-.54.14-.82.18-.06 0-.11.02-.17.02-.24.03-.48.04-.73.04-1.02 0-2-.25-2.88-.7-.16-.08-.31-.17-.46-.27a2.5 2.5 0 01-.43-.34c-.15-.13-.28-.27-.41-.42l-.02-.02c-.39-.48-.67-1.03-.83-1.63-.08-.3-.13-.61-.15-.93 0-.1-.01-.2-.01-.3 0-.52.08-1.02.24-1.49.24-.7.65-1.32 1.19-1.81.78-.71 1.8-1.14 2.92-1.14.39 0 .78.05 1.15.15.57.16 1.1.43 1.55.8l.02.01c.48.4.88.9 1.16 1.47l.02.04c.23.47.38.98.44 1.52l.01.11c.01.1.01.19.01.29 0 .33-.04.64-.11.95.91-.44 1.66-1.14 2.13-2l.04-.08c.21-.38.37-.79.47-1.22.1-.43.16-.87.16-1.33 0-.84-.17-1.63-.48-2.35-.32-.74-.78-1.39-1.34-1.95-.56-.56-1.22-1.01-1.95-1.33A5.69 5.69 0 0014.65 3c-2.85 0-5.25 2.1-5.65 4.85l-.01.09-.01.08-.01.13v.09c-.01.19-.01.37 0 .55 0 .06 0 .12.01.17l.01.15c.08 1.16.44 2.25.99 3.19-1.15.01-2.23-.29-3.14-.84-.3.72-.46 1.51-.46 2.34 0 1.62.65 3.09 1.71 4.16a5.87 5.87 0 004.15 1.72c.25 0 .5-.02.74-.05l.14-.02c1.82-.24 3.4-1.18 4.43-2.55.12-.16.23-.32.33-.49-.32-.01-.63-.05-.93-.12a5.84 5.84 0 01-4.03-3.57c-.25-.67-.39-1.39-.39-2.15 0-.76.14-1.48.39-2.15.67-1.78 2.09-3.2 3.88-3.86.56-.21 1.16-.34 1.78-.38z"/></svg>
+          <span data-i18n="map.openWaze">Atvert Waze</span>
+        </a>
+        <a href="https://www.google.com/maps/dir/?api=1&destination=57.45,21.85" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-3 rounded-full transition-colors border border-white/20">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          <span data-i18n="map.openMaps">Atvert Google Maps</span>
+        </a>
+      </div>
+      <div class="mt-6 text-white/50 text-sm space-y-1">
+        <p data-i18n="map.direction1">No Ventspils: virzienā uz Dundagu, 38 km</p>
+        <p data-i18n="map.direction2">No Dundagas: virzienā uz Ventspili, 20 km</p>
+        <p data-i18n="map.direction3">Pie ceļa redzēsi norāžu zīmi "Andžiņi"</p>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ LIGHTBOX ============ -->
   <div id="lightbox" class="fixed inset-0 z-[100] hidden bg-black/90 flex items-center justify-center" onclick="closeLightbox(event)">
     <button onclick="closeLightbox()" class="absolute top-4 right-4 text-white/70 hover:text-white text-4xl leading-none z-10">&times;</button>
@@ -358,6 +503,45 @@
       </div>
     </div>
   </footer>
+
+  <!-- ============ MOBILE STICKY CTA ============ -->
+  <div id="mobileCTA" class="fixed bottom-0 left-0 right-0 z-40 md:hidden bg-gradient-to-t from-dark via-dark/95 to-transparent pt-6 pb-safe px-4 pb-4">
+    <a href="#contact" data-i18n="nav.book" class="block text-center bg-primary hover:bg-primary-dark text-white font-bold py-3.5 rounded-full transition-colors text-sm">
+      Rezervēt
+    </a>
+  </div>
+
+  <!-- ============ JSON-LD ============ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Lāzers 3",
+    "description": "Lāzertags un lāzerbiatlons Ziemeļkurzemes mežos. Aktīvā atpūta visai ģimenei.",
+    "url": "https://lazers3.lv",
+    "telephone": "+37128985485",
+    "email": "info@lazers3.lv",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Andžiņi",
+      "addressLocality": "Ances pagasts",
+      "addressRegion": "Ventspils novads",
+      "addressCountry": "LV"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 57.45,
+      "longitude": 21.85
+    },
+    "priceRange": "€7-€18",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "09:00",
+      "closes": "21:00"
+    }
+  }
+  </script>
 
   <script src="app.js"></script>
 </body>

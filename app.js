@@ -1,5 +1,5 @@
 /**
- * Lāzers 3 — Main Application
+ * Lazers 3 — Main Application
  */
 
 (function () {
@@ -22,13 +22,12 @@
     initHeader();
     initMobileMenu();
     initWeapons();
-    initPricing();
     initTestimonials();
-    initFAQ();
     initContactForm();
     initScrollAnimations();
     initSmoothScroll();
     initLightbox();
+    initMobileCTA();
   }
 
   // ============ i18n ============
@@ -61,6 +60,8 @@
     document.documentElement.lang = lang;
 
     if (content) {
+      renderScenarios();
+      renderAudienceSegments();
       renderWeapons();
       renderPricing();
       renderTestimonials();
@@ -102,6 +103,67 @@
         closeIcon.classList.add('hidden');
       });
     });
+  }
+
+  // ============ SCENARIOS ============
+  function renderScenarios() {
+    const data = content[currentLang].scenarios;
+    const container = document.getElementById('scenarioCards');
+    if (!container || !data) return;
+
+    container.innerHTML = data.list.map(s => `
+      <div class="bg-white/5 border border-white/10 p-6 hover:border-primary/30 transition-colors">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="text-3xl">${s.icon}</span>
+          <h3 class="font-heading font-bold text-lg text-white">${s.name}</h3>
+        </div>
+        <p class="text-white/60 mb-4 leading-relaxed text-sm">${s.desc}</p>
+        <div class="flex gap-4 text-xs">
+          <span class="stat-mono">${s.duration}</span>
+          <span class="text-white/40">|</span>
+          <span class="text-white/50">${s.players}</span>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  // ============ AUDIENCE SEGMENTS ============
+  function renderAudienceSegments() {
+    const data = content[currentLang].whoIsItFor;
+    const container = document.getElementById('audienceSegments');
+    if (!container || !data) return;
+
+    container.innerHTML = data.segments.map((seg, i) => {
+      const isReversed = i % 2 === 1;
+      return `
+        <div class="flex flex-col ${isReversed ? 'md:flex-row-reverse' : 'md:flex-row'} gap-6 md:gap-10 items-center">
+          <div class="w-full md:w-2/5 flex-shrink-0">
+            <img src="${seg.image}" alt="${seg.title}" class="w-full aspect-[3/2] object-cover rounded-lg">
+          </div>
+          <div class="flex-1">
+            <div class="flex items-center gap-3 mb-2">
+              <span class="text-3xl">${seg.icon}</span>
+              <h3 class="font-heading font-bold text-2xl text-dark">${seg.title}</h3>
+            </div>
+            <p class="text-accent font-semibold mb-3">${seg.tagline}</p>
+            <p class="text-gray-600 leading-relaxed mb-4">${seg.desc}</p>
+            <ul class="space-y-1.5 mb-5">
+              ${seg.features.map(f => `
+                <li class="flex items-center gap-2 text-sm text-gray-600">
+                  <svg class="w-4 h-4 text-accent flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                  </svg>
+                  ${f}
+                </li>
+              `).join('')}
+            </ul>
+            <a href="#contact" class="inline-block bg-primary hover:bg-primary-dark text-white font-semibold px-6 py-2.5 rounded-full text-sm transition-colors">
+              ${seg.cta}
+            </a>
+          </div>
+        </div>
+      `;
+    }).join('');
   }
 
   // ============ WEAPONS CAROUSEL ============
@@ -203,17 +265,13 @@
   }
 
   // ============ PRICING ============
-  function initPricing() {
-    renderPricing();
-  }
-
   function renderPricing() {
     const data = content[currentLang].pricing;
     const container = document.getElementById('pricingCards');
 
     container.innerHTML = data.packages.map(pkg => `
-      <div class="pricing-card bg-white p-6 md:p-8 ${pkg.recommended ? 'recommended' : ''}">
-        ${pkg.recommended ? '<div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-white text-xs font-bold px-4 py-1 rounded-full">' + (currentLang === 'lv' ? 'Ieteicams' : currentLang === 'en' ? 'Recommended' : 'Рекомендуем') + '</div>' : ''}
+      <div class="pricing-card bg-white p-6 md:p-8 ${pkg.recommended ? 'recommended ring-2 ring-primary shadow-xl md:scale-105' : ''}">
+        ${pkg.recommended ? `<div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-gradient-to-r from-primary to-accent text-white text-xs font-bold px-4 py-1 rounded-full whitespace-nowrap">${data.recommendedLabel}</div>` : ''}
         <div class="text-center mb-6">
           <h3 class="font-heading font-bold text-lg mb-3 text-dark">${pkg.name}</h3>
           <div class="flex items-baseline justify-center gap-1">
@@ -221,6 +279,7 @@
             <span class="text-gray-500 text-sm">${pkg.per}</span>
           </div>
           <p class="text-gray-400 text-sm mt-1">${pkg.duration}</p>
+          <p class="text-accent text-xs font-medium mt-1">${pkg.groupSize}</p>
         </div>
         <ul class="space-y-3 mb-8">
           ${pkg.features.map(f => `
@@ -251,7 +310,6 @@
       updateTestimonialPosition();
     }, 6000);
 
-    // Swipe support
     let touchStartX = 0;
     const el = document.getElementById('testimonialCarousel');
     el.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });
@@ -305,10 +363,6 @@
   }
 
   // ============ FAQ ============
-  function initFAQ() {
-    renderFAQ();
-  }
-
   function renderFAQ() {
     const data = content[currentLang].faq;
     const container = document.getElementById('faqList');
@@ -371,10 +425,28 @@
     });
   }
 
+  // ============ MOBILE STICKY CTA ============
+  function initMobileCTA() {
+    const cta = document.getElementById('mobileCTA');
+    const contactSection = document.getElementById('contact');
+    if (!cta || !contactSection) return;
+
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          cta.classList.toggle('hidden-cta', entry.isIntersecting);
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    observer.observe(contactSection);
+  }
+
   // ============ SCROLL ANIMATIONS ============
   function initScrollAnimations() {
     document.querySelectorAll('section:not(#hero)').forEach(section => {
-      const children = section.querySelectorAll('h2, .grid > div, .pricing-card, .faq-item, form, .space-y-6 > div');
+      const children = section.querySelectorAll('h2, h3, .grid > div, .pricing-card, .faq-item, form, .space-y-6 > div, #audienceSegments > div, #scenarioCards > div');
       children.forEach((el, i) => {
         el.classList.add('fade-up');
         el.style.transitionDelay = `${i * 0.1}s`;
@@ -405,13 +477,11 @@
           const headerHeight = document.getElementById('header').offsetHeight;
           const top = target.getBoundingClientRect().top + window.scrollY - headerHeight;
           window.scrollTo({ top, behavior: 'smooth' });
-          // Update URL hash so link is shareable
           history.pushState(null, '', href);
         }
       });
     });
 
-    // Handle direct hash URL on page load
     if (window.location.hash) {
       setTimeout(() => {
         const target = document.querySelector(window.location.hash);
@@ -439,7 +509,6 @@
       item.addEventListener('click', () => openLightbox(i));
     });
 
-    // Keyboard navigation
     document.addEventListener('keydown', e => {
       const lb = document.getElementById('lightbox');
       if (lb.classList.contains('hidden')) return;
@@ -448,7 +517,6 @@
       if (e.key === 'ArrowRight') lightboxNavFn(1);
     });
 
-    // Swipe support
     let touchStartX = 0;
     const lb = document.getElementById('lightbox');
     lb.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });
@@ -480,7 +548,6 @@
     img.alt = lightboxImages[lightboxIndex].alt;
   }
 
-  // Global handlers for onclick in HTML
   window.closeLightbox = function (e) {
     if (e && e.target !== e.currentTarget) return;
     closeLightboxFn();
