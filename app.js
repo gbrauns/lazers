@@ -11,7 +11,7 @@
   // ============ INIT ============
   async function init() {
     try {
-      const resp = await fetch('content.json');
+      const resp = await fetch(`content.json?v=${Date.now()}`, { cache: 'no-store' });
       content = await resp.json();
     } catch (e) {
       console.error('Failed to load content.json', e);
