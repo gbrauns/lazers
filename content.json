@@ -20,16 +20,6 @@
       "stat3Num": "38km",
       "stat3": "no Ventspils"
     },
-    "whatIsIt": {
-      "sectionTitle": "[MISIJAS APRAKSTS]",
-      "title": "Tā nav peintbola sāpe.\nTā ir taktiska komandu cīņa.",
-      "point1Title": "Nav sāpīgi",
-      "point1Desc": "Lāzera sensors, ne krāsas lode. Droši bērniem no 6 gadiem un pieaugušajiem.",
-      "point2Title": "Dabā, ne hallē",
-      "point2Desc": "Īsts mežs, īsta taktika. Paslēpies aiz kokiem, uzbrūc no sāniem, uzvarē.",
-      "point3Title": "Komandas spēle",
-      "point3Desc": "Stratēģija, komunikācija, adrenalīns. Tas saliedē jebkuru grupu."
-    },
     "whyUs": {
       "sectionTitle": "Kāpēc izvēlēties mūs?",
       "reason1Title": "Īsts mežs, īsta taktika",
@@ -396,16 +386,6 @@
       "stat3Num": "38km",
       "stat3": "from Ventspils"
     },
-    "whatIsIt": {
-      "sectionTitle": "[MISSION BRIEFING]",
-      "title": "Not paintball pain.\nIt's a tactical team battle.",
-      "point1Title": "No pain",
-      "point1Desc": "Laser sensors, not paint. Safe for kids from 6 and adults.",
-      "point2Title": "Outdoors, not indoors",
-      "point2Desc": "Real forest, real tactics. Hide behind trees, flank, win.",
-      "point3Title": "Team game",
-      "point3Desc": "Strategy, communication, adrenaline. It bonds any group."
-    },
     "whyUs": {
       "sectionTitle": "Why choose us?",
       "reason1Title": "Real forest, real tactics",
@@ -771,16 +751,6 @@
       "stat2": "моделей оружия",
       "stat3Num": "38km",
       "stat3": "от Вентспилса"
-    },
-    "whatIsIt": {
-      "sectionTitle": "[ОПИСАНИЕ МИССИИ]",
-      "title": "Это не боль пейнтбола.\nЭто тактический командный бой.",
-      "point1Title": "Не больно",
-      "point1Desc": "Лазерные датчики, не краска. Безопасно для детей от 6 лет и взрослых.",
-      "point2Title": "На природе, не в зале",
-      "point2Desc": "Настоящий лес, настоящая тактика. Прячься за деревьями, атакуй с фланга, побеждай.",
-      "point3Title": "Командная игра",
-      "point3Desc": "Стратегия, коммуникация, адреналин. Это сплачивает любую группу."
     },
     "whyUs": {
       "sectionTitle": "Почему выбирают нас?",
