@@ -47,6 +47,8 @@
       if (value !== undefined) {
         if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
           el.placeholder = value;
+        } else if (el.tagName === 'IMG') {
+          el.alt = value;
         } else {
           el.textContent = value;
         }
