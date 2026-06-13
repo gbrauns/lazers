@@ -20,6 +20,21 @@
       "stat3Num": "38km",
       "stat3": "no Ventspils"
     },
+    "eateries": {
+      "sectionTitle": "[PĒC MISIJAS]",
+      "title": "Kur paēst ap Anci?",
+      "subtitle": "Tuvākās praktiskās pieturas pēc spēles. Pirms braukšanas pārbaudiet darba laiku.",
+      "place1Name": "Miķeļbāka",
+      "place1Meta": "Tuvākā piejūras izvēle",
+      "place1Desc": "Kempinga restorāns Miķeļtornī, ērts virziens, ja pēc spēles gribas aizbraukt līdz jūrai.",
+      "place2Name": "Dundagas rezidence",
+      "place2Meta": "Dundaga",
+      "place2Desc": "Siltāks restorāna variants Dundagā grupām, kas pēc misijas dodas Talsu/Kolkas virzienā.",
+      "place3Name": "Vecā pirts",
+      "place3Meta": "Dundaga",
+      "place3Desc": "Vienkārša kafejnīcas pietura Dundagā, ja vajag ātri paēst pēc aktīvās dienas.",
+      "openMap": "Atvērt kartē"
+    },
     "whyUs": {
       "sectionTitle": "Kāpēc izvēlēties mūs?",
       "reason1Title": "Īsts mežs, īsta taktika",
@@ -386,6 +401,21 @@
       "stat3Num": "38km",
       "stat3": "from Ventspils"
     },
+    "eateries": {
+      "sectionTitle": "[AFTER THE MISSION]",
+      "title": "Where to eat near Ance?",
+      "subtitle": "Practical nearby stops after the game. Check opening hours before heading out.",
+      "place1Name": "Miķeļbāka",
+      "place1Meta": "Closest seaside option",
+      "place1Desc": "A campsite restaurant in Miķeļtornis, handy if you want to continue toward the sea after the game.",
+      "place2Name": "Dundagas rezidence",
+      "place2Meta": "Dundaga",
+      "place2Desc": "A warmer restaurant-style option in Dundaga for groups heading toward Talsi or Kolka.",
+      "place3Name": "Vecā pirts",
+      "place3Meta": "Dundaga",
+      "place3Desc": "A simple cafe stop in Dundaga when you want a quick meal after an active day.",
+      "openMap": "Open map"
+    },
     "whyUs": {
       "sectionTitle": "Why choose us?",
       "reason1Title": "Real forest, real tactics",
@@ -751,6 +781,21 @@
       "stat2": "моделей оружия",
       "stat3Num": "38km",
       "stat3": "от Вентспилса"
+    },
+    "eateries": {
+      "sectionTitle": "[ПОСЛЕ МИССИИ]",
+      "title": "Где поесть рядом с Анце?",
+      "subtitle": "Практичные места поблизости после игры. Перед поездкой проверьте часы работы.",
+      "place1Name": "Miķeļbāka",
+      "place1Meta": "Ближайший вариант у моря",
+      "place1Desc": "Ресторан при кемпинге в Микельторнисе, удобно, если после игры хочется поехать к морю.",
+      "place2Name": "Dundagas rezidence",
+      "place2Meta": "Дундага",
+      "place2Desc": "Более ресторанный вариант в Дундаге для групп, которые едут в сторону Талси или Колки.",
+      "place3Name": "Vecā pirts",
+      "place3Meta": "Дундага",
+      "place3Desc": "Простая остановка-кафе в Дундаге, если после активного дня нужно быстро поесть.",
+      "openMap": "Открыть карту"
     },
     "whyUs": {
       "sectionTitle": "Почему выбирают нас?",
