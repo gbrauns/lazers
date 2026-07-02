@@ -132,7 +132,7 @@
             "Skolotāji spēlē bez maksas (1 uz 10 bērniem)"
           ],
           "cta": "Pieteikt skolas grupu",
-          "image": "https://placehold.co/800x600/2a2a2a/666?text=Skolenu+grupa"
+          "image": "/img/skoleni.jpg"
         },
         {
           "icon": "💼",
@@ -508,7 +508,7 @@
             "Teachers play free (1 per 10 kids)"
           ],
           "cta": "Register a school group",
-          "image": "https://placehold.co/800x600/2a2a2a/666?text=School+Group"
+          "image": "/img/skoleni.jpg"
         },
         {
           "icon": "💼",
@@ -884,7 +884,7 @@
             "Учителя играют бесплатно (1 на 10 детей)"
           ],
           "cta": "Записать школьную группу",
-          "image": "https://placehold.co/800x600/2a2a2a/666?text=Shkolnaya+Gruppa"
+          "image": "/img/skoleni.jpg"
         },
         {
           "icon": "💼",
