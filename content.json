@@ -104,7 +104,7 @@
             "Fotogrāfijas un video no spēles"
           ],
           "cta": "Rezervēt dzimšanas dienu",
-          "image": "https://placehold.co/800x600/2a2a2a/666?text=Dzimsanas+diena"
+          "image": "/img/dzimsanas-diena-v1.jpg"
         },
         {
           "icon": "🍺",
@@ -118,7 +118,7 @@
             "Tuvumā var organizēt nakšņošanu"
           ],
           "cta": "Sazināties par ballīti",
-          "image": "/img/vecpuisi.jpg"
+          "image": "/img/vecpuisi-v1.jpg"
         },
         {
           "icon": "🎒",
@@ -147,7 +147,7 @@
             "Korporatīvie piedāvājumi grupām 20+ cilvēki"
           ],
           "cta": "Saņemt piedāvājumu",
-          "image": "https://placehold.co/800x600/2a2a2a/666?text=Team+Building"
+          "image": "/img/teambuilding.jpg"
         },
         {
           "icon": "👨‍👩‍👧‍👦",
@@ -161,7 +161,7 @@
             "Instruktori uzrauga visu procesu"
           ],
           "cta": "Plānot ģimenes dienu",
-          "image": "https://placehold.co/800x600/2a2a2a/666?text=Gimenes+diena"
+          "image": "/img/family.jpg"
         }
       ]
     },
@@ -480,7 +480,7 @@
             "Photos and video from the game"
           ],
           "cta": "Book a birthday party",
-          "image": "https://placehold.co/800x600/2a2a2a/666?text=Birthday+Party"
+          "image": "/img/dzimsanas-diena-v1.jpg"
         },
         {
           "icon": "🍺",
@@ -494,7 +494,7 @@
             "Accommodation can be arranged nearby"
           ],
           "cta": "Get in touch about your party",
-          "image": "/img/vecpuisi.jpg"
+          "image": "/img/vecpuisi-v1.jpg"
         },
         {
           "icon": "🎒",
@@ -523,7 +523,7 @@
             "Corporate offers for groups of 20+"
           ],
           "cta": "Get a quote",
-          "image": "https://placehold.co/800x600/2a2a2a/666?text=Team+Building"
+          "image": "/img/teambuilding.jpg"
         },
         {
           "icon": "👨‍👩‍👧‍👦",
@@ -537,7 +537,7 @@
             "Instructors supervise the entire process"
           ],
           "cta": "Plan a family day",
-          "image": "https://placehold.co/800x600/2a2a2a/666?text=Family+Day"
+          "image": "/img/family.jpg"
         }
       ]
     },
@@ -856,7 +856,7 @@
             "Фотографии и видео с игры"
           ],
           "cta": "Забронировать день рождения",
-          "image": "https://placehold.co/800x600/2a2a2a/666?text=Den+Rozhdeniya"
+          "image": "/img/dzimsanas-diena-v1.jpg"
         },
         {
           "icon": "🍺",
@@ -870,7 +870,7 @@
             "Поблизости можно организовать ночёвку"
           ],
           "cta": "Связаться по поводу вечеринки",
-          "image": "/img/vecpuisi.jpg"
+          "image": "/img/vecpuisi-v1.jpg"
         },
         {
           "icon": "🎒",
@@ -899,7 +899,7 @@
             "Корпоративные предложения для групп 20+ человек"
           ],
           "cta": "Получить предложение",
-          "image": "https://placehold.co/800x600/2a2a2a/666?text=Team+Building"
+          "image": "/img/teambuilding.jpg"
         },
         {
           "icon": "👨‍👩‍👧‍👦",
@@ -913,7 +913,7 @@
             "Инструкторы контролируют весь процесс"
           ],
           "cta": "Запланировать семейный день",
-          "image": "https://placehold.co/800x600/2a2a2a/666?text=Semejnyj+Den"
+          "image": "/img/family.jpg"
         }
       ]
     },
