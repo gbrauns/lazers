@@ -180,7 +180,7 @@
         {
           "name": "Sniper MR-512",
           "desc": "Snaipera šautene tālšāvējiem",
-          "image": "https://placehold.co/400x260/2a2a2a/666?text=Sniper+MR-512",
+          "image": "/img/mr-512.jpg",
           "length": "85cm",
           "weight": "2.2kg",
           "range": "350m",
@@ -191,7 +191,7 @@
         {
           "name": "Junior LB-3",
           "desc": "Kompakts ierocis jaunākajiem spēlētājiem",
-          "image": "https://placehold.co/400x260/2a2a2a/666?text=Junior+LB-3",
+          "image": "/img/bitatlons.jpg",
           "length": "45cm",
           "weight": "650g",
           "range": "200m",
@@ -202,7 +202,7 @@
         {
           "name": "Predator AK-12LT",
           "desc": "Universāls trieciena ierocis",
-          "image": "https://placehold.co/400x260/2a2a2a/666?text=Predator+AK-12LT",
+          "image": "/img/predator.jpg",
           "length": "70cm",
           "weight": "1kg",
           "range": "250m",
@@ -213,7 +213,7 @@
         {
           "name": "Phoenix MP-9LT",
           "desc": "Ātrs un precīzs — ideāls agresīvam stilam",
-          "image": "https://placehold.co/400x260/2a2a2a/666?text=Phoenix+MP-9LT",
+          "image": "/img/phoenix.jpg",
           "length": "39.5cm",
           "weight": "780g",
           "range": "300m",
@@ -224,7 +224,7 @@
         {
           "name": "Terminator MR-514",
           "desc": "Smagais ierocis ar maksimālu ugunsspēku",
-          "image": "https://placehold.co/400x260/2a2a2a/666?text=Terminator+MR-514",
+          "image": "/img/terminator-1.jpg",
           "length": "77cm",
           "weight": "2.5kg",
           "range": "200m",
@@ -556,7 +556,7 @@
         {
           "name": "Sniper MR-512",
           "desc": "Sniper rifle for long-range players",
-          "image": "https://placehold.co/400x260/2a2a2a/666?text=Sniper+MR-512",
+          "image": "/img/mr-512.jpg",
           "length": "85cm",
           "weight": "2.2kg",
           "range": "350m",
@@ -567,7 +567,7 @@
         {
           "name": "Junior LB-3",
           "desc": "Compact weapon for younger players",
-          "image": "https://placehold.co/400x260/2a2a2a/666?text=Junior+LB-3",
+          "image": "/img/bitatlons.jpg",
           "length": "45cm",
           "weight": "650g",
           "range": "200m",
@@ -578,7 +578,7 @@
         {
           "name": "Predator AK-12LT",
           "desc": "Universal assault weapon",
-          "image": "https://placehold.co/400x260/2a2a2a/666?text=Predator+AK-12LT",
+          "image": "/img/predator.jpg",
           "length": "70cm",
           "weight": "1kg",
           "range": "250m",
@@ -589,7 +589,7 @@
         {
           "name": "Phoenix MP-9LT",
           "desc": "Fast and accurate — ideal for aggressive style",
-          "image": "https://placehold.co/400x260/2a2a2a/666?text=Phoenix+MP-9LT",
+          "image": "/img/phoenix.jpg",
           "length": "39.5cm",
           "weight": "780g",
           "range": "300m",
@@ -600,7 +600,7 @@
         {
           "name": "Terminator MR-514",
           "desc": "Heavy weapon with maximum firepower",
-          "image": "https://placehold.co/400x260/2a2a2a/666?text=Terminator+MR-514",
+          "image": "/img/terminator-1.jpg",
           "length": "77cm",
           "weight": "2.5kg",
           "range": "200m",
@@ -932,7 +932,7 @@
         {
           "name": "Sniper MR-512",
           "desc": "Снайперская винтовка для дальнобойщиков",
-          "image": "https://placehold.co/400x260/2a2a2a/666?text=Sniper+MR-512",
+          "image": "/img/mr-512.jpg",
           "length": "85cm",
           "weight": "2.2kg",
           "range": "350m",
@@ -943,7 +943,7 @@
         {
           "name": "Junior LB-3",
           "desc": "Компактное оружие для юных игроков",
-          "image": "https://placehold.co/400x260/2a2a2a/666?text=Junior+LB-3",
+          "image": "/img/bitatlons.jpg",
           "length": "45cm",
           "weight": "650g",
           "range": "200m",
@@ -954,7 +954,7 @@
         {
           "name": "Predator AK-12LT",
           "desc": "Универсальное штурмовое оружие",
-          "image": "https://placehold.co/400x260/2a2a2a/666?text=Predator+AK-12LT",
+          "image": "/img/predator.jpg",
           "length": "70cm",
           "weight": "1kg",
           "range": "250m",
@@ -965,7 +965,7 @@
         {
           "name": "Phoenix MP-9LT",
           "desc": "Быстрый и точный — идеален для агрессивного стиля",
-          "image": "https://placehold.co/400x260/2a2a2a/666?text=Phoenix+MP-9LT",
+          "image": "/img/phoenix.jpg",
           "length": "39.5cm",
           "weight": "780g",
           "range": "300m",
@@ -976,7 +976,7 @@
         {
           "name": "Terminator MR-514",
           "desc": "Тяжёлое оружие с максимальной огневой мощью",
-          "image": "https://placehold.co/400x260/2a2a2a/666?text=Terminator+MR-514",
+          "image": "/img/terminator-1.jpg",
           "length": "77cm",
           "weight": "2.5kg",
           "range": "200m",
